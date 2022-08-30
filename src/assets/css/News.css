@@ -1,0 +1,20 @@
+.news-sec {
+	padding: 100px 0px;
+}
+.news-sec .content-wrapper h6 {
+	color: #929090;
+	font-size: 16px;
+	font-family: "Poppins";
+}
+.news-sec .content-wrapper h2 {
+	color: #433f40;
+	line-height: 1.1;
+}
+.news-sec .content-wrapper p {
+	color: #433e3b;
+	font-size: 17px;
+}
+.news-sec .content-wrapper span {
+	color: #929090;
+	margin-bottom: 27px;
+}

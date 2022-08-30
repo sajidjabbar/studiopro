@@ -1,0 +1,58 @@
+.classes-sec {
+	padding: 100px 0px;
+}
+.makeup-sec .makeup-row-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.makeup-sec .makeup-row-wrapper .makeup-card-wrapper {
+	flex: 0 0 33%;
+	padding: 28px 10px;
+}
+.makeup-sec .makeup-row-wrapper .makeup-card-wrapper .makeup-img-wrapper {
+	position: relative;
+}
+.makeup-sec
+	.makeup-row-wrapper
+	.makeup-card-wrapper
+	.makeup-img-wrapper
+	img.brush {
+	position: absolute;
+	right: 0px;
+	bottom: -29px;
+}
+.makeup-sec .makeup-row-wrapper .makeup-card-wrapper .makepup-content-wrapper {
+	margin-top: 42px;
+}
+.makeup-sec
+	.makeup-row-wrapper
+	.makeup-card-wrapper
+	.makepup-content-wrapper
+	h3 {
+	color: #433f40;
+	font-size: 37px;
+	line-height: 1;
+}
+.makeup-sec
+	.makeup-row-wrapper
+	.makeup-card-wrapper
+	.makepup-content-wrapper
+	p {
+	color: #433e3b;
+	font-size: 16px;
+	font-family: "Poppins";
+}
+.makeup-sec
+	.makeup-row-wrapper
+	.makeup-card-wrapper
+	.makepup-content-wrapper
+	span {
+	color: #433e3b;
+	font-family: "Baskerville";
+	font-size: 18px;
+}
+.makeup-sec .content-wrapper {
+	text-align: center;
+	padding-bottom: 35px;
+}
