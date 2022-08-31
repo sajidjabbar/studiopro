@@ -43,8 +43,15 @@ import makeup14 from "../assets/img/makeup14.png";
 import makeup15 from "../assets/img/makeup15.png";
 import makeup16 from "../assets/img/makeup16.png";
 import news_img from "../assets/img/news-img.png";
+import contact from "../assets/img/contact.png";
+import phoneicon from "../assets/img/phoneicon.png";
+import massageicon from "../assets/img/massageicon.png";
+import homeicon from "../assets/img/homeicon.png";
 
 export {
+	homeicon,
+	phoneicon,
+	massageicon,
 	tranies4,
 	news_img,
 	classes_img,
@@ -90,4 +97,5 @@ export {
 	makeup14,
 	makeup15,
 	makeup16,
+	contact,
 };
