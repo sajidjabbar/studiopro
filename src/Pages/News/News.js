@@ -64,15 +64,8 @@ const News = () => {
 			</section>
 			{/* News ends here */}
 			{/* makeup sec starts here */}
-			<section className="makeup-sec">
+			<section className="News-makeup-sec makeup-sec">
 				<div className="container">
-					<div className="row">
-						<div className="col-lg-12">
-							<div className="content-wrapper">
-								<h2>LashExtensions</h2>
-							</div>
-						</div>
-					</div>
 					<div className="makeup-row-wrapper">
 						<div className="makeup-card-wrapper">
 							<div className="makeup-img-wrapper">
