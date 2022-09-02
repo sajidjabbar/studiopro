@@ -53,8 +53,14 @@ import beauty3 from "../assets/img/beauty3.png";
 import brush1 from "../assets/img/brush1.png";
 import beauty4 from "../assets/img/beauty4.png";
 import beauty5 from "../assets/img/beauty5.png";
+import review from "../assets/img/review.png";
+import review1 from "../assets/img/review1.png";
+import review2 from "../assets/img/review2.png";
 
 export {
+	review2,
+	review1,
+	review,
 	beauty4,
 	beauty5,
 	homeicon,

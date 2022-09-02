@@ -339,6 +339,11 @@ header#top .nav-icons-wrapper ul {
 	border-bottom: 1px solid #707070;
 	border-right: 1px solid #707070;
 }
+.chat-img1 img {
+	height: 60px;
+	width: 60px;
+	object-fit: cover;
+}
 .makeup-box-wrapper .col-lg-4 {
 	padding: 0px;
 }
