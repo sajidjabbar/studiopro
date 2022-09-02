@@ -47,9 +47,21 @@ import contact from "../assets/img/contact.png";
 import phoneicon from "../assets/img/phoneicon.png";
 import massageicon from "../assets/img/massageicon.png";
 import homeicon from "../assets/img/homeicon.png";
+import beauty1 from "../assets/img/beauty1.png";
+import beauty2 from "../assets/img/beauty2.png";
+import beauty3 from "../assets/img/beauty3.png";
+import brush1 from "../assets/img/brush1.png";
+import beauty4 from "../assets/img/beauty4.png";
+import beauty5 from "../assets/img/beauty5.png";
 
 export {
+	beauty4,
+	beauty5,
 	homeicon,
+	brush1,
+	beauty1,
+	beauty2,
+	beauty3,
 	phoneicon,
 	massageicon,
 	tranies4,
