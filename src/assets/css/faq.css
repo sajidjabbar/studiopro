@@ -1,0 +1,64 @@
+.faq {
+	padding: 100px 0px;
+}
+.faq .accordion button.accordion-button {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	border: 0px;
+	background: transparent;
+	border: 1px solid #0d0d0d;
+	padding: 14px 18px;
+	background-repeat: no-repeat;
+}
+.faq .accordion button.accordion-button span {
+	color: #393939;
+}
+section.faq .accordion button[aria-expanded="true"] {
+	background-image: linear-gradient(
+		to right,
+		#fbc926,
+		#f9cc3a,
+		#f7cf4a,
+		#f5d258,
+		#f3d566,
+		#efd166,
+		#eacc65,
+		#e6c865,
+		#debb58,
+		#d6af4c,
+		#cea23f,
+		#c69633
+	);
+	border: 0px;
+}
+section.faq .accordion button[aria-expanded="true"] span {
+	color: #0c0200;
+}
+.faq .accordion button.accordion-button span {
+	font-size: 18px;
+	font-weight: 500;
+}
+.faq .accordion button.accordion-button i {
+	font-size: 16px;
+}
+.faq .accordion .accordion-item {
+	margin: 25px 0;
+}
+.faq .accordion .accordion-item .accordion-collapse {
+	background: #f2f2f2;
+	padding: 26px;
+}
+.faq .accordion h2.accordion-header {
+	margin: 0px;
+}
+.faq .accordion .accordion-item .accordion-collapse .accordion-body {
+	color: #1b2737;
+	font-size: 17px;
+	font-weight: 400;
+}
+section.faq .accordion button[aria-expanded="true"] i::before {
+	content: "\f068";
+}

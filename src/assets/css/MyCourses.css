@@ -1,0 +1,125 @@
+.mycourses .mycourses-heading-wrapper h4 {
+	color: #000000;
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.mycourses .courses-tabs-list-wrapper ul {
+	padding: 0px;
+	list-style: none;
+	display: flex;
+}
+.mycourses .courses-tabs-list-wrapper ul li a.nav-item {
+	border: 1px solid #131313;
+	margin-right: 24px;
+	padding: 9px 29px;
+	color: #131313;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: "Poppins";
+	text-decoration: none;
+}
+.mycourses .courses-tabs-list-wrapper {
+	margin-bottom: 37px;
+}
+.course-tabs-wrapper .heading h6 {
+	color: #ababab;
+	font-family: "Poppins";
+	font-size: 15px;
+	font-weight: 500;
+}
+.course-tabs-wrapper .heading {
+	margin-bottom: 30px;
+}
+.course-tabs-wrapper .makeup-card-wrapper figure {
+	margin: 0px;
+}
+.course-tabs-wrapper .makeup-card-wrapper .makeup-img-wrapper figure {
+	position: relative;
+}
+.course-tabs-wrapper .makeup-card-wrapper .makeup-img-wrapper img.brush {
+	position: absolute;
+	bottom: -4%;
+	right: 3%;
+}
+.course-tabs-wrapper .makeup-card-wrapper .profile-name-wrapper {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	padding: 0px 10px;
+	bottom: 8%;
+}
+.course-tabs-wrapper .makeup-card-wrapper .profile-name-wrapper h6 {
+	margin: 0px;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 15px;
+	font-family: "Poppins";
+	font-weight: 500;
+}
+.mycourses .course-tabs-wrapper .makeup-category-wrapper .makeup-img-wrapper {
+	position: relative;
+}
+.course-tabs-wrapper .makeup-card-wrapper .profile-name-wrapper img {
+	width: 33px;
+	height: 33px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.course-tabs-wrapper
+	.makeup-card-wrapper
+	.makeup-img-wrapper
+	figure
+	img.img-fluid {
+	height: 141px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 3px;
+}
+.mycourses .makeup-card-wrapper .makeup-content-wrapper {
+	padding: 10px;
+	background: #f9f9f9;
+	border-radius: 0px 0px 6px 6px;
+}
+.mycourses .makeup-card-wrapper .makeup-content-wrapper h6 {
+	font-family: "Poppins";
+	color: #433f40;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 3px;
+}
+.mycourses .makeup-card-wrapper .makeup-content-wrapper p {
+	font-size: 12px;
+	color: #433e3b;
+	font-weight: 400;
+	margin-bottom: 7px;
+}
+.mycourses .makeup-card-wrapper .makeup-content-wrapper span {
+	color: #9c9a98;
+	font-size: 10px;
+	font-weight: 500;
+}
+.mycourses .courses-tabs-list-wrapper ul li a.nav-item.active {
+	background-image: linear-gradient(
+		90deg,
+		hsl(46deg 96% 57%) 0%,
+		hsl(46deg 92% 62%) 9%,
+		hsl(47deg 87% 66%) 18%,
+		hsl(48deg 81% 70%) 27%,
+		hsl(48deg 73% 71%) 36%,
+		hsl(45deg 65% 63%) 45%,
+		hsl(43deg 60% 56%) 55%,
+		hsl(41deg 57% 50%) 64%,
+		hsl(41deg 57% 52%) 73%,
+		hsl(42deg 61% 59%) 82%,
+		hsl(44deg 66% 66%) 91%,
+		hsl(46deg 75% 73%) 100%
+	);
+	padding: 10px 40px;
+	background-repeat: no-repeat;
+	border-radius: 0px;
+	color: #0c0200;
+	font-weight: 500;
+	transition: 0.3s;
+	border: 0px;
+}

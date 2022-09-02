@@ -18,3 +18,11 @@
 	color: #929090;
 	margin-bottom: 27px;
 }
+.News-makeup-sec .makeup-row-wrapper {
+	border-bottom: 1px solid #707070;
+	padding-bottom: 40px;
+}
+.makeup-sec .content-wrapper p {
+	color: #433e3b;
+	font-size: 17px;
+}

@@ -1,0 +1,183 @@
+.wishlist-sec {
+	padding: 100px 0px;
+}
+.wishlist-sec .wishlist-wrapper td {
+	vertical-align: middle;
+}
+.wishlist-sec .wishlist-wrapper .product-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.wishlist-sec .wishlist-wrapper .product-wrapper img {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.wishlist-sec .wishlist-wrapper td.product-name {
+	width: 29%;
+}
+.wishlist-sec .wishlist-wrapper td.close-col button {
+	border: 0px;
+	background: transparent;
+	color: #c59531;
+	font-size: 22px;
+}
+.wishlist-sec .wishlist-wrapper tr td {
+	text-align: center;
+	padding: 21px 10px;
+}
+.wishlist-wrapper thead th {
+	text-align: center;
+}
+.wishlist-sec .wishlist-wrapper .product-wrapper h6 {
+	color: #1f2c35;
+	font-size: 15px;
+	font-weight: 500;
+	margin: 0px;
+}
+.wishlist-sec .wishlist-wrapper td.price-name h6,
+.wishlist-sec .wishlist-wrapper td.stock-name h6,
+.wishlist-sec .wishlist-wrapper td.product-name h6 {
+	color: #000000;
+	font-size: 15px;
+	font-weight: 600;
+	margin: 0px;
+}
+.wishlist-sec .wishlist-wrapper .table thead th {
+	border: 0px;
+	color: #4a4a4a;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 17px 10px;
+}
+.wishlist-sec .wishlist-wrapper td.product-name .btn {
+	padding: 10px 19px;
+	font-size: 12px;
+	background-image: linear-gradient(
+		90deg,
+		hsl(46deg 96% 57%) 0%,
+		hsl(46deg 92% 62%) 9%,
+		hsl(47deg 87% 66%) 18%,
+		hsl(48deg 81% 70%) 27%,
+		hsl(48deg 73% 71%) 36%,
+		hsl(45deg 65% 63%) 45%,
+		hsl(43deg 60% 56%) 55%,
+		hsl(41deg 57% 50%) 64%,
+		hsl(41deg 57% 52%) 73%,
+		hsl(42deg 61% 59%) 82%,
+		hsl(44deg 66% 66%) 91%,
+		hsl(46deg 75% 73%) 100%
+	);
+}
+.wishlist-sec .btn-wrapper button.btn-Clear {
+	padding: 8px 40px;
+	background-repeat: no-repeat;
+	border-radius: 0px;
+	color: #343436;
+	font-weight: 500;
+	margin-left: 27px;
+	font-size: 18px;
+	border: 1px solid #343436;
+	background: transparent;
+}
+.wishlist-sec .wishlist-wrapper {
+	border: 1px solid #d8d8d8;
+	padding: 18px;
+}
+.wishlist-sec .btn-wrapper {
+	margin-top: 30px;
+}
+.wishlist-wrapper td.stock-name .counter-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wishlist-wrapper td.stock-name .counter-wrapper input[type="number"] {
+	width: 66px;
+	height: 33px;
+	background: #f2f2f2;
+	border: 0px;
+	text-align: center;
+}
+.wishlist-wrapper td.stock-name .counter-wrapper .counter-btn-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.wishlist-wrapper td.stock-name .counter-wrapper .counter-btn-wrapper button {
+	height: 16px;
+	border: 0px;
+	font-size: 11px;
+	margin: 1px;
+	color: #000;
+}
+.wishlist-sec .discount-row-wrapper .copon-wrapper {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.wishlist-sec .discount-row-wrapper .copon-wrapper label {
+	flex: 0 0 25%;
+	color: #525252;
+	font-size: 16px;
+	margin: 0px;
+}
+.wishlist-sec .discount-row-wrapper .copon-wrapper .input-group {
+	flex: 0 0 75%;
+}
+.wishlist-sec .discount-row-wrapper .copon-wrapper .input-group input {
+	height: 42px;
+	background: #ffffff;
+	border-radius: 22px 0px 0px 22px;
+}
+.wishlist-sec
+	.discount-row-wrapper
+	.copon-wrapper
+	.input-group
+	input::placeholder {
+	color: #a8a8a8;
+	font-weight: 400;
+}
+.wishlist-sec .discount-row-wrapper .copon-wrapper .input-group button.btn {
+	height: 43px;
+	font-weight: 500;
+	font-size: 15px;
+}
+.wishlist-wrapper .discount-wrapper .discount-list-wrapper ul {
+	list-style: none;
+	padding: 0px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #878787;
+}
+.wishlist-wrapper .discount-wrapper .discount-list-wrapper ul li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wishlist-wrapper .discount-wrapper .discount-list-wrapper ul li span {
+	text-align: right;
+	flex: 0 0 50%;
+	color: #989898;
+	font-size: 12px;
+	font-family: "Poppins";
+}
+.wishlist-wrapper .discount-wrapper .total-cost-wrapper ul {
+	padding: 0px;
+	list-style: none;
+}
+.wishlist-wrapper .discount-wrapper .total-cost-wrapper ul li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wishlist-wrapper .discount-wrapper .total-cost-wrapper ul li span {
+	flex: 0 0 50%;
+	text-align: right;
+	font-size: 18px;
+	color: #000000;
+	font-family: "Poppins";
+	font-weight: 600;
+}

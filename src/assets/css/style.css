@@ -8,26 +8,44 @@
 /* global css starts here */
 .btn {
 	background-image: linear-gradient(
-		to right,
-		#fbc926,
-		#f9cc3a,
-		#f7cf4a,
-		#f5d258,
-		#f3d566,
-		#efd166,
-		#eacc65,
-		#e6c865,
-		#debb58,
-		#d6af4c,
-		#cea23f,
-		#c69633
+		90deg,
+		hsl(46deg 96% 57%) 0%,
+		hsl(46deg 92% 62%) 9%,
+		hsl(47deg 87% 66%) 18%,
+		hsl(48deg 81% 70%) 27%,
+		hsl(48deg 73% 71%) 36%,
+		hsl(45deg 65% 63%) 45%,
+		hsl(43deg 60% 56%) 55%,
+		hsl(41deg 57% 50%) 64%,
+		hsl(41deg 57% 52%) 73%,
+		hsl(42deg 61% 59%) 82%,
+		hsl(44deg 66% 66%) 91%,
+		hsl(46deg 75% 73%) 100%
 	);
 	padding: 10px 40px;
+	background-repeat: no-repeat;
 	border-radius: 0px;
 	color: #0c0200;
 	font-weight: 500;
+	transition: 0.3s;
 }
-
+.btn:hover {
+	background-image: linear-gradient(
+		-90deg,
+		hsl(46deg 96% 57%) 0%,
+		hsl(46deg 92% 62%) 9%,
+		hsl(47deg 87% 66%) 18%,
+		hsl(48deg 81% 70%) 27%,
+		hsl(48deg 73% 71%) 36%,
+		hsl(45deg 65% 63%) 45%,
+		hsl(43deg 60% 56%) 55%,
+		hsl(41deg 57% 50%) 64%,
+		hsl(41deg 57% 52%) 73%,
+		hsl(42deg 61% 59%) 82%,
+		hsl(44deg 66% 66%) 91%,
+		hsl(46deg 75% 73%) 100%
+	);
+}
 /* global css ends here */
 /* typpography starts here */
 * {

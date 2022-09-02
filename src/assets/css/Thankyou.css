@@ -1,0 +1,16 @@
+.thankyou-sec {
+	padding: 150px 0px;
+}
+
+.thankyou-sec .thankyou-note-wrapper {
+	padding: 41px 20px;
+	text-align: center;
+	border: 1px solid #433e3b;
+	border-radius: 13px;
+}
+
+.thankyou-sec .thankyou-note-wrapper h4 {
+	color: #433e3b;
+	font-size: 20px;
+	margin: 0px;
+}

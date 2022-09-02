@@ -1,0 +1,89 @@
+.NewsDetail {
+	padding: 100px 0px;
+}
+.NewsDetail .newsDetail-wrapper .news-detail-img {
+	position: relative;
+}
+.NewsDetail .newsDetail-wrapper .news-detail-img img.brush {
+	position: absolute;
+	right: 0%;
+	bottom: -6%;
+}
+.newsDetail-wrapper .news-content-wrapper h6.date {
+	color: #000000;
+	font-size: 22px;
+	font-family: "Poppins";
+}
+.newsDetail-wrapper .news-content-wrapper .heading-wrapper {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #707070;
+	margin-bottom: 27px;
+	padding-top: 20px;
+}
+.newsDetail-wrapper .news-content-wrapper .heading-wrapper h3 {
+	color: #1a1a1a;
+	font-size: 28px;
+	line-height: 1.5;
+}
+.newsDetail-wrapper .news-content-wrapper .news-paragraphy-wrapper p {
+	color: #262626;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.newsDetail-wrapper .news-content-wrapper .news-paragraphy-wrapper {
+	padding-bottom: 34px;
+}
+.NewsDetail .newsDetail-wrapper .review-upload-wrapper h3 {
+	color: #000000;
+}
+.NewsDetail .newsDetail-wrapper .review-upload-wrapper .heading-wrapper {
+	padding-bottom: 17px;
+}
+.NewsDetail .newsDetail-wrapper .review-upload-wrapper .heading-wrapper {
+	margin-bottom: 26px;
+}
+.NewsDetail .review-upload-wrapper .heading-wrapper {
+	margin-bottom: 28px;
+}
+.NewsDetail .review-upload-wrapper input.form-control {
+	height: 49px;
+	border-radius: 0px;
+	border: 1px solid #a1a1a1;
+}
+.NewsDetail .review-upload-wrapper input.form-control::placeholder {
+	color: #ababab;
+}
+.NewsDetail .review-upload-wrapper textarea.form-control {
+	border-radius: 0px;
+	border: 1px solid #a1a1a1;
+}
+.NewsDetail .review-upload-wrapper textarea.form-control::placeholder {
+	color: #ababab;
+}
+.NewsDetail .review-upload-wrapper button.btn {
+	padding: 10px 59px;
+}
+.NewsDetail .newsDetail-wrapper .news-content-wrapper {
+	padding-top: 29px;
+}
+.recomanded-wrapper .heading-wrapper {
+	padding-bottom: 30px;
+}
+.recomanded-wrapper .heading-wrapper h2 {
+	color: #1a1a1a;
+	font-size: 36px;
+}
+.NewsDetail .recomanded-wrapper .more-blog-wrapper .card-content-wrapper h4 {
+	font-family: "Baskerville";
+	font-size: 25px;
+}
+.NewsDetail .recomanded-wrapper .more-blog-wrapper .card-content-wrapper h6 {
+	font-size: 18px;
+	color: #c2c2c2;
+}
+.makeup-sec .makepup-content-wrapper a {
+	font-family: "Baskerville";
+	color: #433e3b;
+	font-size: 18px;
+	margin-left: 40px;
+}

@@ -1,0 +1,216 @@
+/* Signin Css Start Here */
+
+figure {
+	padding: 0;
+
+	margin-bottom: 0;
+}
+
+.footer .footer-text {
+	display: none;
+}
+.signinSec .signInBox .form-group .form-control {
+	border: 1px solid #0000002e;
+	padding: 25px 20px;
+	border-radius: 0px;
+	color: #63606070;
+}
+
+.signinSec {
+	height: 100vh;
+	/* background-image: url("../img/Login-bg.png"); */
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+.signInBox .nav-tabs {
+	justify-content: center;
+	border: 0px;
+}
+.signInBox ul#myTab li.nav-item .nav-link.active {
+	border: 0px;
+	border-bottom: 3px solid #61eba7;
+	font-size: 18px;
+	color: #000;
+	font-family: "visby-regular";
+}
+.signInBox .nav-tabs {
+	justify-content: center;
+	border: 0px;
+	margin-bottom: 21px;
+}
+.signInBox .nav-tabs li {
+	flex: 0 0 50%;
+}
+.signinSec .img-Dv {
+	position: relative;
+}
+
+.signinSec .imgBox figure img {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+.signinSec .LogoBox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.signinSec .LogoBox figure img {
+	width: 100%;
+}
+.signinSec .img-Dv figure {
+	margin: 0px;
+}
+.signinSec .logo-wrapper {
+	margin-bottom: 22px;
+	text-align: center;
+}
+.signinSec .signInBox {
+	padding: 0 30px 0 0px;
+}
+.signinSec .signInBox .title h1 {
+	color: #433f40 !important;
+	font-size: 50px;
+}
+.signinSec .signInBox .taglines h3 {
+	font-family: "trade-bold";
+	font-weight: 700 !important;
+}
+.signinSec .signInBox .taglines h3 strong {
+	font-weight: 800;
+	font-family: "visby-regular";
+	font-size: 25px;
+}
+.signinSec .signInBox .taglines h3 {
+	font-family: "Poppins";
+	font-size: 22px;
+	line-height: 1.1;
+	color: #161616;
+	font-weight: 500 !important;
+}
+.signinSec .signInBox .taglines h3:last-child {
+	margin-bottom: 30px;
+}
+.signInBox .taglines p {
+	font-family: "Poppins";
+	color: #000000;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 31px;
+}
+.signInBox .taglines p a {
+	color: #fac929;
+	margin-left: 10px;
+	font-weight: 700;
+	font-size: 16px;
+}
+.signinSec .signInBox .taglines h3 strong {
+	font-weight: 800;
+}
+.signinSec .signInBox .form-group .form-control {
+	border: 1px solid #0000002e;
+	padding: 8px 20px;
+	border-radius: 0px;
+	color: #63606070;
+	height: 50px;
+}
+.signinSec .signInBox .form-group .form-control::placeholder {
+	color: #63606070;
+}
+
+.signinSec .signInBox button {
+	width: 200px;
+	font-family: "Poppins";
+	font-weight: 500;
+	color: #fff;
+	padding: 0.575rem 5.95rem;
+	border-radius: 0px !important;
+	transition: 0.7s;
+	border: 2px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px auto;
+	margin-right: 0px;
+	height: 50px;
+	width: 100%;
+	background: #000000;
+	font-size: 18px;
+}
+.signinSec .signInBox button:hover {
+	box-shadow: 0px 0px 0px 2px #61eba7;
+}
+
+.signinSec .signInBox .actionsLink {
+	display: flex;
+
+	align-items: center;
+
+	justify-content: space-between;
+}
+
+.signinSec .signInBox .actionsLink .forgotDv a {
+	color: #b1b1b2;
+}
+.signinSec .signInBox .actionsLink .form-group {
+	margin-bottom: 0;
+}
+.signinSec .signInBox .actionsLink label {
+	margin-bottom: 0;
+	margin-left: 13px;
+	color: #b1b1b2;
+}
+.signinSec .signInBox .privacyDv {
+	left: 0;
+	right: 0;
+	margin-top: 30px;
+}
+.privacyDv p {
+	color: #636060 !important;
+	font-family: "Poppins";
+	font-weight: 300 !important;
+	font-size: 15px !important;
+	text-align: center;
+}
+.signinSec .signInBox .privacyDv a {
+	color: #313f2b;
+	font-weight: 400;
+}
+
+@media (max-width: 1250px) {
+	.signinSec .signInBox {
+		padding: 0 40px 0 40px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.signinSec .signInBox .taglines h3 {
+		font-size: 20px;
+	}
+
+	.signinSec .LogoBox figure img {
+		width: 100%;
+
+		padding: 0 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.signinSec .img-Dv {
+		display: none;
+	}
+
+	.signinSec .signInBox {
+		padding: 60px 40px 60px 40px;
+	}
+}
+
+@media (max-width: 450px) {
+	.signinSec .signInBox {
+		padding: 30px 10px 30px 10px;
+	}
+}
+
+/* Signin Css End Here */

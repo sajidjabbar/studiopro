@@ -1,0 +1,123 @@
+.Biling {
+	padding: 100px 0px;
+}
+.biling-form-wrapper input {
+	height: 50px;
+	border-radius: 0px;
+	border: 1px solid #c8c8c8;
+}
+.biling-form-wrapper input::placeholder {
+	color: #b4b4b4;
+	font-size: 15px;
+	font-weight: 500;
+}
+.Biling .biling-form-wrapper label {
+	color: #433f40;
+	font-size: 15px;
+	font-weight: 500;
+}
+.biling-form-wrapper .btn-wrapper button.btn {
+	height: 55px;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.biling-form-wrapper .btn-wrapper {
+	padding-top: 30px;
+	margin-top: 30px;
+	border-top: 1px solid #b7b7b7;
+}
+.Biling .biling-form-wrapper .heading-wrapper {
+	margin-bottom: 30px;
+}
+.booking-review-wrapper .review-img-and-list-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.booking-review-wrapper .review-img-and-list-wrapper .review-img-wrapper {
+	flex: 0 0 40%;
+}
+.booking-review-wrapper .review-img-and-list-wrapper .list-wrapper {
+	flex: 0 0 55%;
+}
+
+.booking-review-wrapper .review-img-and-list-wrapper .list-wrapper ul {
+	padding: 0px;
+	list-style: none;
+}
+
+.booking-review-wrapper .review-img-and-list-wrapper .list-wrapper ul li {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0px;
+	border-bottom: 1px solid #b4b4b4;
+}
+
+.booking-review-wrapper .review-img-and-list-wrapper .list-wrapper ul li span {
+	font-family: "Baskerville";
+	font-size: 18px;
+	color: #433f40;
+	font-weight: 400;
+}
+.booking-review-wrapper
+	.review-img-and-list-wrapper
+	.review-img-wrapper
+	figure {
+	position: relative;
+}
+.booking-review-wrapper
+	.review-img-and-list-wrapper
+	.review-img-wrapper
+	figure
+	img.brush {
+	position: absolute;
+	right: 16%;
+	bottom: -5%;
+}
+.Biling .booking-review-wrapper .booking-heading-wrapper h4 {
+	font-family: "Baskerville";
+	color: #1d212d;
+	font-size: 22px;
+	padding: 12px 0px;
+}
+.Biling .booking-review-wrapper {
+	border: 1px solid #b4b4b4;
+	padding: 24px;
+}
+.booking-review-wrapper
+	.review-img-and-list-wrapper
+	.list-wrapper
+	ul
+	li:last-child {
+	border-bottom: 0px;
+}
+.booking-review-wrapper
+	.review-img-and-list-wrapper
+	.review-img-wrapper
+	img.img-fluid {
+	height: 144px;
+	width: 151px;
+	object-fit: cover;
+}
+.Biling .addition-note-wrapper {
+	margin-top: 30px;
+}
+
+.Biling .addition-note-wrapper .heading-wrapper {
+	/* padding-bottom: 18px; */
+}
+.Biling .addition-note-wrapper .heading-wrapper h4 {
+	font-family: "Baskerville";
+	color: #1d212d;
+	font-size: 22px;
+}
+.Biling .addition-note-wrapper input.form-control {
+	border: 1px solid #c8c8c8;
+	border-radius: 0px;
+	height: 50px;
+}
+.Biling .addition-note-wrapper input.form-control::placeholder {
+	color: #b4b4b4;
+	font-weight: 400;
+}

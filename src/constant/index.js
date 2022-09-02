@@ -43,9 +43,54 @@ import makeup14 from "../assets/img/makeup14.png";
 import makeup15 from "../assets/img/makeup15.png";
 import makeup16 from "../assets/img/makeup16.png";
 import news_img from "../assets/img/news-img.png";
+import NewsDetailImg from "../assets/img/news-detail.png";
+import pro_img from "../assets/img/pro-img.png";
+import pro_img2 from "../assets/img/pro-img2.png";
+import review_img from "../assets/img/review-img.png";
+import review_brush from "../assets/img/review-brush.png";
+import visa from "../assets/img/visa.png";
+import pymnt1 from "../assets/img/pymnt1.png";
+import pymnt2 from "../assets/img/pymnt2.png";
+import pymnt3 from "../assets/img/pymnt3.png";
+import pymnt4 from "../assets/img/pymnt4.png";
+import pymnt5 from "../assets/img/pymnt5.png";
+import Loginimg from "../assets/img/Login-bg.png";
+import auth_logo from "../assets/img/auth-logo.png";
+import profile_img from "../assets/img/profile-img.png";
+import make1 from "../assets/img/make1.png";
+import make2 from "../assets/img/make2.png";
+import make3 from "../assets/img/make3.png";
+import profile_img2 from "../assets/img/profile-img2.png";
+import makeimg from "../assets/img/makeup.png";
+import blading_img from "../assets/img/blading.png";
+import video_btn from "../assets/img/video-btn.png";
+import pdf_img from "../assets/img/pdf.png";
+import upload_img from "../assets/img/upload-img.png";
 
 export {
+	blading_img,
+	upload_img,
+	pdf_img,
+	video_btn,
+	auth_logo,
+	makeimg,
+	profile_img2,
+	make1,
+	make2,
+	make3,
+	profile_img,
 	tranies4,
+	Loginimg,
+	pymnt1,
+	pymnt2,
+	pymnt3,
+	pymnt4,
+	pymnt5,
+	visa,
+	pro_img,
+	review_brush,
+	review_img,
+	pro_img2,
 	news_img,
 	classes_img,
 	banner_2_img,
@@ -90,4 +135,5 @@ export {
 	makeup14,
 	makeup15,
 	makeup16,
+	NewsDetailImg,
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { admin, bookmark, logo, shopping_bag } from "../../constant";
+import { admin, bookmark, logo, shopping_bag } from "../constant";
 import { Link } from "react-router-dom";
 
 const Header = () => {

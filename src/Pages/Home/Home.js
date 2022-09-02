@@ -23,8 +23,8 @@ import {
 	tranies3,
 	video_thumb,
 } from "../../constant";
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
+import Footer from "../../Components/Footer";
+import Header from "../../Components/Header";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

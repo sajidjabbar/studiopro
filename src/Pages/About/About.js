@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
+import Footer from "../../Components/Footer";
+import Header from "../../Components/Header";
 import {
 	about_img,
 	banner_1_img,

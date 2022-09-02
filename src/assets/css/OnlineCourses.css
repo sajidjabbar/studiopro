@@ -1,0 +1,140 @@
+.onlineCourses .mycourses-heading-wrapper span {
+	color: #949191;
+	font-size: 15px;
+	font-weight: 500;
+}
+.blading-card-wrapper .blading-img-wrapper figure {
+	position: relative;
+}
+.blading-card-wrapper .blading-img-wrapper figure img.brush {
+	position: absolute;
+	right: 0%;
+	bottom: -2%;
+	z-index: 9;
+}
+.blading-card-wrapper .blading-img-wrapper a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.blading-card-wrapper .session-content-wrapper {
+	top: 0%;
+	position: absolute;
+	right: 0%;
+	height: 100%;
+	background: #000000cc;
+	width: 22%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.blading-card-wrapper {
+	position: relative;
+	margin-bottom: 50px;
+}
+.blading-session-wrapper .blading-card-wrapper .blading-img-wrapper {
+	position: relative;
+}
+.blading-card-wrapper .session-content-wrapper h1 {
+	color: #fff;
+	line-height: 1.1;
+	font-size: 90px;
+}
+.blading-card-wrapper .session-content-wrapper h6 {
+	line-height: 1.1;
+	color: #fff;
+	font-size: 22px;
+}
+.blading-card-wrapper .blading-content-wrapper .heading-date-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.blading-card-wrapper .blading-content-wrapper .heading-date-wrapper h6 {
+	color: #9f9c9b;
+}
+.blading-card-wrapper .blading-content-wrapper .heading-date-wrapper h4 {
+	color: #433f40;
+	font-size: 23px;
+	font-weight: 600;
+}
+.blading-card-wrapper .blading-content-wrapper .heading-date-wrapper p {
+	color: #787878;
+	font-size: 16px;
+	font-family: "Poppins";
+}
+.onlineCourses .coursesMaterial {
+	display: flex;
+	flex-wrap: wrap;
+}
+.onlineCourses .coursesMaterial .pdf-card-wrapper {
+	padding: 10px 15px;
+	text-align: center;
+}
+.onlineCourses .coursesMaterial .pdf-card-wrapper h6 {
+	color: #433f40;
+	font-size: 15px;
+	font-weight: 600;
+}
+.assesment-wrapper .assesment-question-wrapper {
+	margin: 16px 0px;
+	margin-bottom: 40px;
+}
+.assesment-wrapper .assesment-question-wrapper .question-wrapper h6 {
+	color: #000000;
+	font-size: 17px;
+}
+.assesment-wrapper .single-option-wrapper p {
+	color: #ababab;
+	font-family: "Montserrat";
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px;
+}
+.assesment-wrapper .single-option-wrapper {
+	border: 1px solid #a1a1a1;
+	margin: 10px 0px;
+	padding: 10px 10px;
+}
+section.upload-wrapper {
+	border: 1px solid #707070;
+	padding: 100px 0px;
+	text-align: center;
+}
+section.upload-wrapper .upload-content-wrapper p {
+	color: #534f4d;
+	font-family: "Poppins";
+	font-size: 17px;
+	margin-top: 21px;
+}
+section.upload-wrapper button.btn {
+	border: 1px solid #131313;
+	background: transparent;
+	color: #131313;
+}
+.onlineCourses .blading-card-wrapper .top-stories-wrapper {
+	padding: 20px 0px;
+	margin-top: 30px;
+	border-top: 1px solid #d9d9d9;
+}
+.onlineCourses .blading-card-wrapper .top-stories-wrapper h5 {
+	color: #717171;
+	font-size: 25px;
+	font-weight: 500;
+}
+.onlineCourses .blading-card-wrapper .top-stories-wrapper p {
+	color: #534f4d;
+	font-size: 16px;
+}
+.onlineCourses .blading-card-wrapper .top-stories-wrapper ul {
+	column-count: 2;
+}
+.onlineCourses .blading-card-wrapper .top-stories-wrapper ul li {
+	color: #534f4d;
+	padding: 1px 0px;
+}
+.onlineCourses .blading-card-wrapper .top-stories-wrapper ul li::marker {
+	font-size: 23px;
+}

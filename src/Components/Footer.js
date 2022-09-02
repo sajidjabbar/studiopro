@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { logo } from "../../constant";
+import { logo } from "../constant";
 
 const Footer = () => {
 	return (
@@ -83,13 +83,13 @@ const Footer = () => {
 												<a href="#">FAQs</a>
 											</li>
 											<li>
-												<a href="#">News & Events</a>
+												<a href="/news">News & Events</a>
 											</li>
 											<li>
-												<a href="#">Terms & Condition</a>
+												<a href="/terms">Terms & Condition</a>
 											</li>
 											<li>
-												<a href="#">Privacy Policy</a>
+												<a href="/privacy">Privacy Policy</a>
 											</li>
 										</ul>
 									</div>
