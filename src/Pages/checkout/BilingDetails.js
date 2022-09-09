@@ -29,7 +29,7 @@ const BilingDetails = () => {
 								<div className="heading-wrapper">
 									<h3>Billing Details</h3>
 								</div>
-								<form action="">
+								<form action="/Checkout">
 									<div className="form-group row">
 										<div className="col-lg-6">
 											<label htmlFor="">First Name</label>

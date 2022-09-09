@@ -1,0 +1,169 @@
+.saved-payment-method .visa-card input#card-number {
+	opacity: 1;
+}
+.checkout-payment
+	.payment-details
+	.saved-payment-method
+	label.container
+	span.checkmark
+	.card-details
+	.extra-btn {
+	display: flex;
+	align-items: center;
+	flex: 0 0 10%;
+}
+.checkout-payment
+	.payment-details
+	.saved-payment-method
+	label.container
+	span.checkmark
+	.card-details
+	.visa-card {
+	display: flex;
+	align-items: center;
+	padding-left: 0px !important;
+	flex: 0 0 90%;
+}
+.checkout-payment
+	.payment-details
+	.saved-payment-method
+	label.container
+	span.checkmark
+	.card-details
+	.radio-btn
+	span {
+	background: #fff;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 15px;
+	left: unset;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	box-shadow: 0px 0px 0px 1px #f79b9d;
+	top: 42.5px;
+}
+.checkout-payment .saved-payment-method .visa-card .input-box {
+	display: flex;
+	flex-direction: column;
+	margin-left: 16px;
+}
+.checkout-payment
+	.saved-payment-method
+	.visa-card
+	.input-box
+	input#card-number {
+	color: #979797;
+	font-size: 11px;
+	font-weight: 400;
+	background: transparent;
+	margin-top: 4px;
+}
+.checkout-payment
+	.payment-details
+	.saved-payment-method
+	label.container
+	span.checkmark
+	.card-details
+	.visa-card
+	.input-box
+	label {
+	color: #979797;
+	font-size: 10px;
+	font-weight: 600;
+	margin-top: -10px;
+}
+.checkout-payment
+	.payment-details
+	.saved-payment-method
+	label.container
+	input:checked
+	~ span.checkmark
+	.card-details {
+	box-shadow: 0px 0px 0px 1px #c6c6c6;
+	border-color: #fff;
+}
+.checkout-payment
+	.payment-details
+	.saved-payment-method
+	label.container
+	span.checkmark
+	.card-details {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid #c6c6c6;
+	padding: 14px 20px;
+	position: relative;
+}
+.checkout-payment
+	.payment-details
+	.saved-payment-method
+	label.container
+	span.checkmark
+	.card-details
+	.extra-btn
+	i {
+	position: relative;
+	right: -36px;
+	top: -10px;
+}
+.checkout-payment
+	.payment-details
+	.saved-payment-method
+	label.container
+	input:checked
+	~ span.checkmark
+	.card-details
+	.radio-btn
+	span {
+	background: transparent;
+	border: 1px solid #f79b9d;
+}
+.checkout-payment .btn-wrapper button.btn {
+	margin: 0px;
+}
+.checkout-payment .type-and-card-wrapper .btn-wrapper {
+	margin: 0px;
+}
+.checkout-payment .type-and-card-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.checkout-payment .heading h3 {
+	color: #000000 !important;
+	font-family: "Poppins";
+	font-size: 26px;
+	font-weight: 600;
+}
+.checkout-payment .payment-details:first-child {
+	border-bottom: 1px solid #c9c9c9;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+.checkout-payment .btn-wrapper button.btn {
+	margin: 0px;
+	padding: 10px 33px;
+	font-weight: 600;
+}
+.checkout-payment {
+	padding-top: 0px;
+}
+.checkout-payment .add-new-method .form-group {
+	display: flex;
+	border: 1px solid #c6c6c6;
+	margin-bottom: 34px;
+}
+.checkout-payment .add-new-method .form-group input:first-child {
+	flex: 0 0 70%;
+	border: 0px;
+}
+.checkout-payment .add-new-method .form-group input:nth-child(2) {
+	padding: 0px;
+	flex: 0 0 15%;
+	border: 0px;
+}
+.checkout-payment .add-new-method .form-group input:nth-child(3) {
+	border: 0px;
+	flex: 0 0 15%;
+}

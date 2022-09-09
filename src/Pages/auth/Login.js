@@ -23,7 +23,7 @@ const Login = () => {
 										Not a Member ?<a href="/signup">Sign Up</a>
 									</p>
 								</div>
-								<form>
+								<form action="/MyProfile">
 									<div className="form-group">
 										<input
 											type="email"
@@ -41,7 +41,7 @@ const Login = () => {
 									<div className="col-md-12 px-0 text-right mt-3">
 										<button
 											className="btn btn-secondary btnn signup-btn rounded-pill full"
-											type="button"
+											type="submit"
 										>
 											Sign in
 										</button>
@@ -56,13 +56,13 @@ const Login = () => {
 										</div>
 
 										<div className="forgotDv">
-											<a href="/ForgotPassword">Forgot Password ?</a>
+											<a href="/Enteremail">Forgot Password ?</a>
 										</div>
 									</div>
 									<div className="privacyDv">
 										<p>
 											By Creating Account you are agree to our{" "}
-											<a href="#"> Terms & conditions</a>
+											<a href="/terms"> Terms & conditions</a>
 										</p>
 									</div>
 								</form>
@@ -78,9 +78,11 @@ const Login = () => {
 								</div>
 
 								<div className="LogoBox">
-									<figure>
-										<img src={auth_logo} alt="" />
-									</figure>
+									<a href="/">
+										<figure>
+											<img src={auth_logo} alt="" />
+										</figure>
+									</a>
 								</div>
 							</div>
 						</div>

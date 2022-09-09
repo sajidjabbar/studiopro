@@ -19,6 +19,7 @@ import {
 	makeup8,
 	makeup9,
 } from "../../constant";
+import { Link } from "react-router-dom";
 
 const Classes = () => {
 	return (
@@ -75,20 +76,22 @@ const Classes = () => {
 					</div>
 					<div className="makeup-row-wrapper">
 						<div className="makeup-card-wrapper">
-							<div className="makeup-img-wrapper">
-								<figure>
-									<img src={makeup1} className="img-fluid" alt="" />
-									<img src={brush} className="brush" alt="" />
-								</figure>
-							</div>
-							<div className="makepup-content-wrapper">
-								<h3>Microblading 101</h3>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-									do eiusmod
-								</p>
-								<span>26-Jan-2022</span>
-							</div>
+							<Link to="/classes-detail">
+								<div className="makeup-img-wrapper">
+									<figure>
+										<img src={makeup1} className="img-fluid" alt="" />
+										<img src={brush} className="brush" alt="" />
+									</figure>
+								</div>
+								<div className="makepup-content-wrapper">
+									<h3>Microblading 101</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod
+									</p>
+									<span>26-Jan-2022</span>
+								</div>
+							</Link>
 						</div>
 						<div className="makeup-card-wrapper">
 							<div className="makeup-img-wrapper">

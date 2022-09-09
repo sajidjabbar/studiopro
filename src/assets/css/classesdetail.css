@@ -1,0 +1,153 @@
+.classes-detail {
+	padding: 100px 0px 50px 0px;
+}
+.classes-content-wrapper .heading-time-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.classes-content-wrapper .heading-time-wrapper h2 {
+	color: #433f40;
+	font-size: 50px;
+}
+.classes-detail .classes-img-wrapper figure {
+	margin: 0px;
+	position: relative;
+}
+.classes-detail .classes-img-wrapper figure img.brush {
+	position: absolute;
+	bottom: -38px;
+	right: -23px;
+}
+.classes-content-wrapper .heading-time-wrapper h6 {
+	font-size: 22px;
+	color: #433e3b;
+}
+.classes-detail .classes-content-wrapper p {
+	color: #433e3b;
+	font-size: 14px;
+}
+.classes-detail .classes-content-wrapper p a {
+	color: #a7a7a7;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 500;
+	margin-left: 8px;
+}
+.classes-detail .classes-content-wrapper .content-coverd-wrapper h6 {
+	color: #433e3b;
+	font-size: 18px;
+	font-weight: 400;
+}
+.classes-detail .classes-content-wrapper .content-coverd-wrapper ul {
+	list-style: none;
+	padding: 0px;
+	margin: 15px 0px;
+}
+.classes-detail .classes-content-wrapper .content-coverd-wrapper ul li {
+	padding: 7px 0px;
+}
+.classes-detail .classes-content-wrapper .content-coverd-wrapper ul li span {
+	color: #433e3b;
+	margin-left: 15px;
+	font-weight: 400;
+}
+.classes-detail .classes-content-wrapper .content-coverd-wrapper a {
+	color: #a7a7a7;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 500;
+	margin-left: 36px;
+}
+.classes-content-wrapper .enrollment h6 {
+	color: #433e3b;
+	font-size: 18px;
+	font-weight: 400;
+}
+.classes-content-wrapper .enrollment {
+	margin-top: 17px;
+}
+.classes-content-wrapper .enrollment select {
+	border: 1px solid #c8c8c8 !important;
+	border-radius: 0px;
+	height: 48px;
+	width: 67%;
+	color: #b4b4b4;
+	font-weight: 500;
+	background-image: url("../img/Icon\ ionic-ios-arrow-down.png");
+	background-repeat: no-repeat;
+	/* background-size: contain; */
+	background-position: 95%;
+}
+.classes-detail .classes-content-wrapper .kit-wrapper ul {
+	padding: 0;
+	list-style: none;
+}
+.classes-detail .classes-content-wrapper .kit-wrapper ul li {
+	display: flex;
+	justify-content: space-between;
+	margin: 7px 0px;
+}
+.classes-detail .classes-content-wrapper .kit-wrapper {
+	width: 274px;
+	margin-top: 23px;
+}
+.classes-detail .classes-content-wrapper .kit-wrapper ul li span {
+	color: #433f40;
+	font-size: 16px;
+	font-weight: 500;
+}
+/* courses detail css starts here */
+.courses-detail .text-wrapper h2 {
+	color: #433f40;
+	font-size: 50px;
+	font-weight: 500;
+}
+.courses-detail .text-wrapper p {
+	color: #433e3b;
+	font-size: 16px;
+}
+.courses-detail .text-wrapper ul.field-list-wrapper {
+	padding: 0px;
+	list-style: none;
+	width: 85%;
+}
+.courses-detail .text-wrapper ul.field-list-wrapper li {
+	display: flex;
+	border: 1px solid #a1a1a1;
+	margin: 13px 0px;
+	padding: 13px 17px;
+}
+.courses-detail .text-wrapper ul.field-list-wrapper li span.property {
+	flex: 0 0 30%;
+	color: #ababab;
+	font-size: 14px;
+	font-family: "Montserrat";
+}
+.courses-detail .text-wrapper ul.field-list-wrapper li span.value {
+	flex: 0 0 70%;
+	color: #ababab;
+	font-size: 14px;
+	font-family: "Montserrat";
+	border-left: 1px solid #a1a1a1;
+	padding-left: 15px;
+}
+.courses-detail .text-wrapper ul.coverd-list {
+	padding: 0px;
+	list-style: none;
+	column-count: 2;
+}
+.courses-detail .text-wrapper ul.coverd-list li {
+	color: #433e3b;
+	padding: 10px 0px;
+}
+.courses-detail .text-wrapper ul.coverd-list li span {
+	font-size: 16px;
+	font-family: "Poppins";
+	color: #433e3b;
+	margin-left: 16px;
+}
+.courses-detail .text-wrapper {
+	padding-bottom: 30px;
+}
+/* courses detail css ends here */

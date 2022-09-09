@@ -19,7 +19,7 @@ const NewPassword = () => {
 								<div className="taglines pb-3 text-center">
 									<h4>Create a new Password</h4>
 								</div>
-								<form>
+								<form action="/Login">
 									<div className="form-group">
 										<input
 											type="email"
@@ -35,7 +35,7 @@ const NewPassword = () => {
 										/>
 									</div>
 									<div className="col-md-12 px-0 text-right mt-3">
-										<button className="btn" type="button">
+										<button className="btn" type="Submit">
 											Continue
 										</button>
 									</div>
@@ -52,15 +52,19 @@ const NewPassword = () => {
 						<div className="col-lg-6 col-md-6 p-0">
 							<div className="img-Dv">
 								<div className="imgBox">
-									<figure>
-										<img src={Loginimg} alt="" />
-									</figure>
+									<a href="/">
+										<figure>
+											<img src={Loginimg} alt="" />
+										</figure>
+									</a>
 								</div>
 
 								<div className="LogoBox">
-									<figure>
-										<img src={auth_logo} alt="" />
-									</figure>
+									<a href="/">
+										<figure>
+											<img src={auth_logo} alt="" />
+										</figure>
+									</a>
 								</div>
 							</div>
 						</div>

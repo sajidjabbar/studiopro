@@ -20,7 +20,7 @@ const SignUp = () => {
 									<h3>let us Enhance your Beatuy</h3>
 									<p>
 										Not a Member ?
-										<a style={{ color: "#313F2B" }} href="/signup">
+										<a style={{ color: "#313F2B" }} href="/login">
 											Sign In
 										</a>
 									</p>
@@ -101,9 +101,11 @@ const SignUp = () => {
 								</div>
 
 								<div className="LogoBox">
-									<figure>
-										<img src={auth_logo} alt="" />
-									</figure>
+									<a href="/">
+										<figure>
+											<img src={auth_logo} alt="" />
+										</figure>
+									</a>
 								</div>
 							</div>
 						</div>

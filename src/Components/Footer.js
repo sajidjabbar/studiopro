@@ -29,7 +29,7 @@ const Footer = () => {
 											/>
 											<span className="input-group-btn">
 												<button className="btn btn-theme" type="submit">
-													<i class="fa-solid fa-arrow-right"></i>
+													<i className="fa-solid fa-arrow-right"></i>
 												</button>
 											</span>
 										</div>
@@ -54,17 +54,17 @@ const Footer = () => {
 											<ul>
 												<li>
 													<a href="#">
-														<i class="fa-brands fa-facebook"></i>
+														<i className="fa-brands fa-facebook"></i>
 													</a>
 												</li>
 												<li>
 													<a href="#">
-														<i class="fa-brands fa-twitter"></i>
+														<i className="fa-brands fa-twitter"></i>
 													</a>
 												</li>
 												<li>
 													<a href="#">
-														<i class="fa-brands fa-instagram"></i>
+														<i className="fa-brands fa-instagram"></i>
 													</a>
 												</li>
 											</ul>
@@ -80,7 +80,7 @@ const Footer = () => {
 									<div className="footer-content-wrapper">
 										<ul>
 											<li>
-												<a href="#">FAQs</a>
+												<a href="/faq">FAQs</a>
 											</li>
 											<li>
 												<a href="/news">News & Events</a>

@@ -50,7 +50,9 @@ const MyCourses = () => {
 															onClick={() => {
 																setStatetab(0);
 															}}
-															className="nav-item active"
+															className={
+																statetab === 0 ? "nav-item active" : "nav-item"
+															}
 															href="javascript:void(0)"
 														>
 															Online
@@ -61,7 +63,9 @@ const MyCourses = () => {
 															onClick={() => {
 																setStatetab(1);
 															}}
-															className="nav-item"
+															className={
+																statetab === 1 ? "nav-item active" : "nav-item"
+															}
 															href="javascript:void(0)"
 														>
 															In-Person
@@ -72,7 +76,9 @@ const MyCourses = () => {
 															onClick={() => {
 																setStatetab(2);
 															}}
-															className="nav-item"
+															className={
+																statetab === 2 ? "nav-item active" : "nav-item"
+															}
 															href="javascript:void(0)"
 														>
 															Hybrid
@@ -238,33 +244,37 @@ const MyCourses = () => {
 															<div className="row">
 																<div className="col-lg-4">
 																	<div className="makeup-card-wrapper">
-																		<div className="makeup-img-wrapper">
-																			<figure>
-																				<img
-																					src={make1}
-																					className="img-fluid"
-																					alt=""
-																				/>
-																				<img
-																					src={review_brush}
-																					className="brush"
-																					alt=""
-																				/>
-																			</figure>
-																			<div className="profile-name-wrapper">
-																				<img
-																					src={profile_img2}
-																					className="profile-img"
-																					alt=""
-																				/>
-																				<h6>Emilia Carter</h6>
+																		<a href="/InPerson">
+																			<div className="makeup-img-wrapper">
+																				<figure>
+																					<img
+																						src={make1}
+																						className="img-fluid"
+																						alt=""
+																					/>
+																					<img
+																						src={review_brush}
+																						className="brush"
+																						alt=""
+																					/>
+																				</figure>
+																				<div className="profile-name-wrapper">
+																					<img
+																						src={profile_img2}
+																						className="profile-img"
+																						alt=""
+																					/>
+																					<h6>Emilia Carter</h6>
+																				</div>
 																			</div>
-																		</div>
-																		<div className="makeup-content-wrapper">
-																			<h6>Microblading 101</h6>
-																			<p>Lorem ipsum dolor sit amet, consec</p>
-																			<span>26-Jan-2022</span>
-																		</div>
+																			<div className="makeup-content-wrapper">
+																				<h6>Microblading 101</h6>
+																				<p>
+																					Lorem ipsum dolor sit amet, consec
+																				</p>
+																				<span>26-Jan-2022</span>
+																			</div>
+																		</a>
 																	</div>
 																</div>
 																<div className="col-lg-4">
@@ -344,33 +354,37 @@ const MyCourses = () => {
 															<div className="row">
 																<div className="col-lg-4">
 																	<div className="makeup-card-wrapper">
-																		<div className="makeup-img-wrapper">
-																			<figure>
-																				<img
-																					src={make1}
-																					className="img-fluid"
-																					alt=""
-																				/>
-																				<img
-																					src={review_brush}
-																					className="brush"
-																					alt=""
-																				/>
-																			</figure>
-																			<div className="profile-name-wrapper">
-																				<img
-																					src={profile_img2}
-																					className="profile-img"
-																					alt=""
-																				/>
-																				<h6>Emilia Carter</h6>
+																		<a href="/HybridCourses">
+																			<div className="makeup-img-wrapper">
+																				<figure>
+																					<img
+																						src={make1}
+																						className="img-fluid"
+																						alt=""
+																					/>
+																					<img
+																						src={review_brush}
+																						className="brush"
+																						alt=""
+																					/>
+																				</figure>
+																				<div className="profile-name-wrapper">
+																					<img
+																						src={profile_img2}
+																						className="profile-img"
+																						alt=""
+																					/>
+																					<h6>Emilia Carter</h6>
+																				</div>
 																			</div>
-																		</div>
-																		<div className="makeup-content-wrapper">
-																			<h6>Microblading 101</h6>
-																			<p>Lorem ipsum dolor sit amet, consec</p>
-																			<span>26-Jan-2022</span>
-																		</div>
+																			<div className="makeup-content-wrapper">
+																				<h6>Microblading 101</h6>
+																				<p>
+																					Lorem ipsum dolor sit amet, consec
+																				</p>
+																				<span>26-Jan-2022</span>
+																			</div>
+																		</a>
 																	</div>
 																</div>
 																<div className="col-lg-4">

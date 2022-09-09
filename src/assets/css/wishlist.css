@@ -17,6 +17,7 @@
 }
 .wishlist-sec .wishlist-wrapper td.product-name {
 	width: 29%;
+	border-bottom: 1px solid #dee2e6;
 }
 .wishlist-sec .wishlist-wrapper td.close-col button {
 	border: 0px;

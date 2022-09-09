@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { profile_img } from "../../constant";
 
 const SideBar = () => {
 	const [state, setState] = useState(0);
 	const navigate = useNavigate();
-
+	const location = useLocation();
+	// console.log(location?.pathname, "location pathnamezzzzzz");
 	return (
 		<>
 			<div className="profile-wrapper">
@@ -29,10 +30,14 @@ const SideBar = () => {
 									setState(0);
 									navigate("/MyProfile");
 								}}
-								className={state ? "nav-item" : "nav-item active"}
+								className={
+									location?.pathname === "/MyProfile"
+										? "nav-item active"
+										: "nav-item"
+								}
 								href="#"
 							>
-								My Profile
+								My Profiles
 							</a>
 						</li>
 						<li className="nav-link">
@@ -41,7 +46,11 @@ const SideBar = () => {
 									setState(1);
 									navigate("/my-courses");
 								}}
-								className="nav-item"
+								className={
+									location?.pathname === "/my-courses"
+										? "nav-item active"
+										: "nav-item"
+								}
 								href="#"
 							>
 								My Courses
@@ -53,7 +62,11 @@ const SideBar = () => {
 									setState(2);
 									navigate("/Myorder");
 								}}
-								className="nav-item"
+								className={
+									location?.pathname === "/Myorder"
+										? "nav-item active"
+										: "nav-item"
+								}
 								href="#"
 							>
 								My Orders
@@ -63,20 +76,45 @@ const SideBar = () => {
 							<a
 								onClick={() => {
 									setState(3);
+									navigate("/changePassword");
 								}}
-								className="nav-item"
+								className={
+									location?.pathname === "/changePassword"
+										? "nav-item active"
+										: "nav-item"
+								}
 								href="#"
 							>
 								Change Password
 							</a>
 						</li>
 						<li className="nav-link">
-							<a className="nav-item" href="#">
+							<a
+								onClick={() => {
+									navigate("/My-Address");
+								}}
+								className={
+									location?.pathname === "/My-Address"
+										? "nav-item active"
+										: "nav-item"
+								}
+								href="#"
+							>
 								My Address
 							</a>
 						</li>
 						<li className="nav-link">
-							<a className="nav-item" href="#">
+							<a
+								onClick={() => {
+									navigate("/Payment");
+								}}
+								className={
+									location?.pathname === "/Payment"
+										? "nav-item active"
+										: "nav-item"
+								}
+								href="#"
+							>
 								Saved Card
 							</a>
 						</li>

@@ -74,7 +74,9 @@ const Myorder = () => {
 																</td>
 																<td className="product-name">
 																	<div className="button-wrapper">
-																		<button className="btn">View Detail</button>
+																		<a href="/Order" className="btn">
+																			View Detail
+																		</a>
 																	</div>
 																</td>
 															</tr>
@@ -105,7 +107,9 @@ const Myorder = () => {
 																</td>
 																<td className="product-name">
 																	<div className="button-wrapper">
-																		<button className="btn">View Detail</button>
+																		<a href="/Order" className="btn">
+																			View Detail
+																		</a>
 																	</div>
 																</td>
 															</tr>
@@ -136,7 +140,9 @@ const Myorder = () => {
 																</td>
 																<td className="product-name">
 																	<div className="button-wrapper">
-																		<button className="btn">View Detail</button>
+																		<a href="/Order" className="btn">
+																			View Detail
+																		</a>
 																	</div>
 																</td>
 															</tr>
@@ -167,7 +173,9 @@ const Myorder = () => {
 																</td>
 																<td className="product-name">
 																	<div className="button-wrapper">
-																		<button className="btn">View Detail</button>
+																		<a href="/Order" className="btn">
+																			View Detail
+																		</a>
 																	</div>
 																</td>
 															</tr>
@@ -198,7 +206,9 @@ const Myorder = () => {
 																</td>
 																<td className="product-name">
 																	<div className="button-wrapper">
-																		<button className="btn">View Detail</button>
+																		<a href="/Order" className="btn">
+																			View Detail
+																		</a>
 																	</div>
 																</td>
 															</tr>

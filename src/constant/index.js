@@ -66,9 +66,27 @@ import blading_img from "../assets/img/blading.png";
 import video_btn from "../assets/img/video-btn.png";
 import pdf_img from "../assets/img/pdf.png";
 import upload_img from "../assets/img/upload-img.png";
-
+import contact from "../assets/img/contact.png";
+import phoneicon from "../assets/img/phoneicon.png";
+import massageicon from "../assets/img/massageicon.png";
+import homeicon from "../assets/img/homeicon.png";
+import beauty1 from "../assets/img/beauty1.png";
+import beauty2 from "../assets/img/beauty2.png";
+import beauty3 from "../assets/img/beauty3.png";
+import brush1 from "../assets/img/brush1.png";
+import beauty4 from "../assets/img/beauty4.png";
+import beauty5 from "../assets/img/beauty5.png";
+import review from "../assets/img/review.png";
+import review1 from "../assets/img/review1.png";
+import review2 from "../assets/img/review2.png";
+import classesDetail from "../assets/img/classesDetail.png";
+import order_img from "../assets/img/order.png";
+import schedule_img from "../assets/img/schedule-img.png";
 export {
+	schedule_img,
+	classesDetail,
 	blading_img,
+	order_img,
 	upload_img,
 	pdf_img,
 	video_btn,
@@ -79,6 +97,18 @@ export {
 	make2,
 	make3,
 	profile_img,
+	review2,
+	review1,
+	review,
+	beauty4,
+	beauty5,
+	homeicon,
+	brush1,
+	beauty1,
+	beauty2,
+	beauty3,
+	phoneicon,
+	massageicon,
 	tranies4,
 	Loginimg,
 	pymnt1,
@@ -136,4 +166,5 @@ export {
 	makeup15,
 	makeup16,
 	NewsDetailImg,
+	contact,
 };

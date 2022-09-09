@@ -1,0 +1,483 @@
+/* shop1 css start */
+section.shop-sec {
+	margin-top: 80px;
+}
+
+.categories-tab ul {
+	padding: 0;
+}
+
+.categories-tab ul li {
+	list-style: none;
+	width: 100%;
+	height: 53px;
+	border-top: 1px solid #a1a1a1;
+	border-left: 1px solid #a1a1a1;
+	border-right: 1px solid #a1a1a1;
+	padding: 0 9px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.categories-tab ul li a {
+	color: #131313;
+	font-size: 16px;
+	font-family: "poppins";
+	font-weight: 400;
+	text-decoration: none;
+}
+.border-bottom {
+	border-bottom: 1px solid #a1a1a1 !important;
+}
+.categories-wrapper h3 {
+	color: #040404;
+	margin-bottom: 20px;
+}
+.categories-tab ul li.active {
+	background-image: linear-gradient(
+		to right,
+		#f3d563,
+		#f0dc81,
+		#e6cc72,
+		#dcbc5f,
+		#d3ad4e,
+		#cca13fe3,
+		#ca9c3c,
+		#cb9f40,
+		#cb9f40e0,
+		#cb9f40c2,
+		#e1c26d,
+		#e1c26d,
+		#e1c26d
+	);
+}
+.beauty-img {
+	position: relative;
+}
+.brush-img {
+	position: absolute;
+	bottom: -11px;
+	right: -11px;
+}
+.big-img img {
+	height: 290px;
+	object-fit: cover;
+	width: 100%;
+}
+.img-text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.img-text h3 {
+	font-size: 27px;
+	color: #433f40;
+	margin: 0;
+}
+.five-star :nth-child(5) {
+	color: #d2cbcd !important;
+}
+.five-star i {
+	margin: 0 3px;
+	font-size: 16px;
+	color: #433f40;
+}
+.beauty-img-wrapper {
+	margin-top: 0px;
+	margin-left: 20px;
+}
+.pagination-wrapper .pagination .page-item1 a {
+	color: #fff;
+	background-color: #040404;
+}
+.pagination-wrapper .pagination .page-item a {
+	border: none;
+	font-size: 17px;
+	font-family: "roboto";
+	font-weight: 400;
+	color: #909298;
+}
+
+.pagination-wrapper .pagination .page-item a.page-link.active {
+	background-color: transparent;
+	border: 1px solid #040404;
+	padding: 7px 12px;
+	margin-top: 1px;
+}
+.pagination-wrapper .pagination .page-item {
+	margin: 0px 8px;
+}
+.pagination-wrapper {
+	float: right;
+	margin: 30px 0px;
+}
+/* shop1 css end */
+
+/* shop2 css start */
+section.product-sec {
+	margin-top: 160px;
+	margin-bottom: 60px;
+}
+.btn2 {
+	background-image: linear-gradient(
+		to right,
+		#fbc926,
+		#f9cc3a,
+		#f7cf4a,
+		#f5d258,
+		#f3d566,
+		#efd166,
+		#eacc65,
+		#e6c865,
+		#debb58,
+		#d6af4c,
+		#cea23f,
+		#c69633
+	);
+	padding: 16px 57px;
+	border-radius: 0px;
+	color: #0c0200;
+	font-weight: 500;
+	border: none;
+}
+.btn-wrapper1 {
+	margin-top: 30px;
+}
+.btn-wrapper1 a:hover {
+	color: #000000;
+}
+.btn3 {
+	border: 1px solid #0c0200;
+	padding: 14px 30px;
+	border-radius: 0px;
+	color: #0c0200;
+	font-weight: 600;
+	width: 200px;
+	margin-right: 16px;
+	text-align: center;
+}
+.btn2 {
+	margin: 0px 10px 0px 0px;
+}
+
+.product-text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.product-text p {
+	margin: 0;
+	font-family: "Poppins";
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 500;
+	color: #c59531;
+}
+.product-text p span {
+	margin: 0;
+	font-family: "Poppins";
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 600;
+	color: #0c0200;
+	margin-left: 20px;
+}
+.product-text i {
+	font-size: 33px;
+	color: #c59531;
+}
+
+.product-name h4 {
+	font-family: "Poppins";
+	font-size: 22px;
+	line-height: 1.5;
+	font-weight: 600;
+	color: #0c0200;
+}
+.product-name .five-star {
+}
+.product-name .five-star i {
+	font-size: 18px;
+	color: #c59531;
+}
+.product-name .five-star :nth-child(5) {
+	font-size: 18px;
+	color: #c59531 !important;
+}
+.product-name {
+	border-bottom: 1px solid #a4a4a4;
+	padding-bottom: 30px;
+}
+.product-para {
+	color: #0c0200;
+	font-size: 15px;
+	margin-top: 30px;
+}
+.stock-btn {
+	display: flex;
+	align-items: baseline;
+	margin-top: 40px;
+}
+.stock-btn h5 {
+	margin-right: 20px;
+	font-size: 17px;
+	font-family: "poppins";
+	font-weight: 500;
+	color: #0c0200;
+}
+.btn5 {
+	/* border: 1px solid #0c0200; */
+	padding: 8px 0px;
+	border-radius: 0px;
+	color: #0c0200;
+	font-weight: 500;
+	width: 29%;
+	margin-right: 16px;
+	text-align: center;
+	border: none;
+}
+.btn5 a {
+	text-decoration: none;
+	color: #433e3b;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "poppins";
+}
+
+.quantity ul {
+	padding: 0;
+	display: flex;
+	margin-left: 21px;
+	margin-top: 19px;
+}
+.quantity ul li {
+	list-style: none;
+	border: 2px solid black;
+	display: flex;
+	align-items: center;
+	width: 37px;
+	height: 37px;
+	justify-content: center;
+	margin: 0 6px;
+}
+.quantity ul li button {
+	background: transparent;
+}
+.quantity h5 {
+	color: #0c0200;
+	font-size: 17px;
+	font-weight: 500;
+	font-family: "poppins";
+}
+.quantity ul li a {
+	text-decoration: none;
+	color: #433e3b;
+	display: flex;
+}
+.quantity ul li a i {
+	font-size: 20px;
+	color: #000000;
+}
+.quantity {
+	display: flex;
+	align-items: baseline;
+	margin-top: 12px;
+}
+.second-quantity {
+	width: 53px !important;
+	height: 37px !important;
+	border: 2px solid #433e3b !important;
+}
+.quantity button {
+	border: none;
+}
+.card-btn .btn6 {
+	width: 40%;
+	padding: 14px 10px;
+}
+.card-btn .btn6 a {
+	text-decoration: none;
+	margin-left: 5px;
+	font-size: 15px;
+	font-family: "poppins";
+	font-weight: 400;
+	color: #0c0200;
+}
+.card-btn {
+	margin-top: 20px;
+}
+.review {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.review h5 {
+	font-size: 25px;
+	font-family: "poppins";
+	font-weight: 600;
+	color: #0c0200;
+}
+.review-chat {
+	display: flex;
+	align-items: center;
+	padding-right: 90px;
+	margin-bottom: 40px;
+}
+.name-chat {
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.name-chat h5 {
+	color: #0c0200;
+	font-size: 15px;
+}
+.name-chat p {
+	color: #0c0200;
+	line-height: 1.9;
+	font-family: "poppins";
+	font-weight: 400;
+	font-size: 13px;
+}
+.review-chat1 a {
+	color: #0c0200;
+	text-decoration: underline;
+}
+.chat-img img {
+	height: 90px;
+	width: 90px;
+	object-fit: cover;
+}
+.review-chat {
+	padding: 0;
+	border-bottom: 1px solid #433e3b;
+}
+.review-chat-text {
+	border: none;
+}
+.review-chat1 {
+	display: flex;
+	align-items: center;
+	padding-right: 90px;
+	margin-bottom: 40px;
+}
+.chat-wrapper {
+	position: relative;
+	width: 100%;
+	padding: 5px;
+	color: #0c0200;
+	border-radius: 5px;
+	border: 2px solid #0c0200;
+	padding: 0 20px;
+}
+.chat-wrapper::before,
+.chat-wrapper::after {
+	content: "\0020";
+	display: block;
+	position: absolute;
+	top: -15px;
+	left: 15px;
+	z-index: 2;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border: solid 26px transparent;
+	border-top: 0;
+	border-bottom-color: #fff;
+	margin: -9px 20px;
+}
+.chat-wrapper::before {
+	top: -18px;
+	z-index: 1;
+	border-bottom-color: #0c0200;
+}
+.img-input {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+.img-input .form-group3 {
+	margin-left: 20px;
+}
+.img-input .form-group3 input {
+	background-image: url(../img/arrowleft1.png);
+	background-repeat: no-repeat;
+	background-position: 93%;
+	width: 150%;
+	height: 44px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.border-chat-down {
+	border-bottom: 1px solid #e4e4e4;
+	padding-bottom: 20px;
+}
+.input-contect h4 {
+	margin-bottom: 30px;
+	color: #0c0200;
+	line-height: 1.9;
+	font-family: "poppins";
+	font-weight: 600;
+	font-size: 25px;
+}
+.input-contect .form-group input {
+	height: 50px;
+	border-radius: 0;
+	border: 1px solid #bfbfbf;
+}
+.input-contect .form-group input::placeholder {
+	color: #000000;
+	font-family: "poppins";
+	font-weight: 400;
+	font-size: 15px;
+}
+.input-contect .form-group textarea.form-control {
+	height: 120px;
+	resize: none;
+	border: 1px solid #bfbfbf;
+	border-radius: 0;
+	margin-bottom: 40px;
+}
+.input-contect .form-group textarea.form-control::placeholder {
+	color: #000000;
+	font-family: "poppins";
+	font-weight: 400;
+	font-size: 15px;
+}
+.text-star {
+	border-top: 1px solid #bfbfbf;
+	padding-top: 30px;
+}
+.text-star {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+.text-star .five-star i {
+	font-size: 18px;
+	color: #c59531;
+}
+.text-star .five-star :nth-child(5) {
+	font-size: 18px;
+	color: #c59531 !important;
+}
+section.chat-sec {
+	margin-bottom: 80px;
+}
+/* shop2 css end */
+.des .content-wrapper h4 {
+	color: #0c0200;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 33px;
+}
+.des .content-wrapper p {
+	color: #262626;
+	font-size: 16px;
+}
+.des {
+	padding-bottom: 40px;
+}

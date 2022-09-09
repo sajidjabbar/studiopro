@@ -1,0 +1,121 @@
+.ScheduledSessions .scheduled-img-wrapper img.img-fluid {
+	height: 238px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 4px;
+}
+.ScheduledSessions .scheduled-img-wrapper figure {
+	position: relative;
+}
+.ScheduledSessions .scheduled-img-wrapper figure img.brush {
+	position: absolute;
+	right: -7px;
+	bottom: -6%;
+}
+.ScheduledSessions .scheduled-card-wrapper .scheduled-img-wrapper {
+	position: relative;
+}
+.ScheduledSessions
+	.scheduled-card-wrapper
+	.scheduled-img-wrapper
+	.admin-wrapper {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	bottom: 7%;
+	left: 3%;
+}
+.ScheduledSessions
+	.scheduled-card-wrapper
+	.scheduled-img-wrapper
+	.admin-wrapper
+	h6 {
+	margin: 0px;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "Poppins";
+}
+.ScheduledSessions
+	.scheduled-card-wrapper
+	.scheduled-img-wrapper
+	.admin-wrapper
+	img {
+	height: 38px;
+	width: 38px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.ScheduledSessions .scheduled-card-wrapper .headings-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ScheduledSessions .scheduled-card-wrapper .scheduled-content-wrapper {
+	padding-top: 13px;
+}
+.ScheduledSessions .scheduled-card-wrapper .headings-wrapper h4 {
+	color: #433f40;
+	font-size: 23px;
+	font-family: "Poppins";
+	font-weight: 600;
+}
+.ScheduledSessions .scheduled-card-wrapper .headings-wrapper h6 {
+	color: #9f9d9b;
+	font-size: 15px;
+	font-weight: 500;
+}
+.ScheduledSessions .scheduled-card-wrapper .scheduled-content-wrapper p {
+	color: #787878;
+	font-size: 15px;
+	font-weight: 400;
+}
+.session-table-wrapper thead td {
+	border: 0px;
+	text-align: center;
+	color: #000;
+	font-size: 18px;
+	font-family: "Poppins";
+	font-weight: 500;
+}
+.session-table-wrapper td {
+	border: 0px;
+	text-align: center;
+}
+.session-table-wrapper thead tr {
+	background: #f8f8f8;
+}
+.session-table-wrapper tbody td {
+	color: #787878;
+	font-size: 16px;
+	font-family: "Poppins";
+	font-weight: 400;
+	border: 0px;
+}
+.session-table-wrapper tbody tr:nth-child(odd) {
+	background: #f3f3f3;
+}
+.session-table-wrapper tbody tr {
+	background: #f8f8f8;
+}
+.session-table-wrapper thead td {
+	border-right: 1px solid #e2e2e2;
+}
+.session-table-wrapper thead td:last-child {
+	border-right: 0px;
+}
+.ScheduledSessions .session-table-wrapper {
+	height: 400px;
+	overflow-y: scroll;
+}
+.ScheduledSessions .session-table-wrapper::-webkit-scrollbar {
+	width: 5px;
+}
+.ScheduledSessions .session-table-wrapper::-webkit-scrollbar-track {
+	background: transparent;
+}
+.ScheduledSessions .session-table-wrapper::-webkit-scrollbar-thumb {
+	background: #a5a5a5;
+	border-radius: 10px;
+}

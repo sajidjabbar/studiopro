@@ -60,10 +60,10 @@ const ProductCart = () => {
 														</div>
 														{/* <div className="counter-btn-wrapper">
 															<button className="plus">
-																<i class="fa-solid fa-angle-up"></i>
+																<i className="fa-solid fa-angle-up"></i>
 															</button>
 															<button className="minus">
-																<i class="fa-solid fa-angle-down"></i>
+																<i className="fa-solid fa-angle-down"></i>
 															</button>
 														</div> */}
 													</div>
@@ -94,10 +94,10 @@ const ProductCart = () => {
 														</div>
 														{/* <div className="counter-btn-wrapper">
 															<button className="plus">
-																<i class="fa-solid fa-angle-up"></i>
+																<i className="fa-solid fa-angle-up"></i>
 															</button>
 															<button className="minus">
-																<i class="fa-solid fa-angle-down"></i>
+																<i className="fa-solid fa-angle-down"></i>
 															</button>
 														</div> */}
 													</div>
@@ -128,10 +128,10 @@ const ProductCart = () => {
 														</div>
 														{/* <div className="counter-btn-wrapper">
 															<button className="plus">
-																<i class="fa-solid fa-angle-up"></i>
+																<i className="fa-solid fa-angle-up"></i>
 															</button>
 															<button className="minus">
-																<i class="fa-solid fa-angle-down"></i>
+																<i className="fa-solid fa-angle-down"></i>
 															</button>
 														</div> */}
 													</div>
@@ -162,10 +162,10 @@ const ProductCart = () => {
 														</div>
 														{/* <div className="counter-btn-wrapper">
 															<button className="plus">
-																<i class="fa-solid fa-angle-up"></i>
+																<i className="fa-solid fa-angle-up"></i>
 															</button>
 															<button className="minus">
-																<i class="fa-solid fa-angle-down"></i>
+																<i className="fa-solid fa-angle-down"></i>
 															</button>
 														</div> */}
 													</div>
@@ -196,10 +196,10 @@ const ProductCart = () => {
 														</div>
 														{/* <div className="counter-btn-wrapper">
 															<button className="plus">
-																<i class="fa-solid fa-angle-up"></i>
+																<i className="fa-solid fa-angle-up"></i>
 															</button>
 															<button className="minus">
-																<i class="fa-solid fa-angle-down"></i>
+																<i className="fa-solid fa-angle-down"></i>
 															</button>
 														</div> */}
 													</div>
@@ -216,14 +216,14 @@ const ProductCart = () => {
 										<div className="col-lg-6">
 											<div className="copon-wrapper">
 												<label htmlFor="">Discount codes</label>
-												<div class="input-group">
+												<div className="input-group">
 													<input
 														type="email"
-														class="form-control"
+														className="form-control"
 														placeholder="Enter your coupon code if you have one."
 													/>
-													<span class="input-group-btn">
-														<button class="btn" type="submit">
+													<span className="input-group-btn">
+														<button className="btn" type="submit">
 															APPLY
 														</button>
 													</span>
@@ -269,7 +269,9 @@ const ProductCart = () => {
 								</div>
 								<div className="col-lg-6">
 									<div className="btn-wrapper text-right">
-										<button className="btn">Proceed to Checkout</button>
+										<a href="/bilingDetail" className="btn">
+											Proceed to Checkout
+										</a>
 										<p className="mt-3">
 											You’ll still have a chance to review your order
 										</p>

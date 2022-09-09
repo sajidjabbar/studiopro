@@ -43,6 +43,7 @@ section.faq .accordion button[aria-expanded="true"] span {
 }
 .faq .accordion button.accordion-button i {
 	font-size: 16px;
+	color: #000;
 }
 .faq .accordion .accordion-item {
 	margin: 25px 0;
@@ -61,4 +62,7 @@ section.faq .accordion button[aria-expanded="true"] span {
 }
 section.faq .accordion button[aria-expanded="true"] i::before {
 	content: "\f068";
+}
+.faq .accordion-button::after {
+	display: none;
 }

@@ -1,0 +1,265 @@
+.profile-sec .save-address {
+	margin-top: 40px;
+}
+.profile-sec .box .deafult {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+
+.profile-sec .deafult h5 {
+	color: #1f2c35;
+	font-size: 15px;
+	margin: 0 20px 0 0px;
+}
+.profile-sec label.container input:checked ~ span.checkmark span.dot {
+	box-shadow: 0px 0px 0px 2px #aaaaaa;
+	background: #707070;
+}
+.profile-sec label.container .select-address .actions a {
+	color: #000000;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.profile-sec label.container .select-address .actions {
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+.profile-sec .tab-box label.container {
+	padding: 0;
+}
+.profile-sec .tab-box label.container .select-address {
+	border: 2px solid #b5b5b5;
+	padding: 20px 30px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+.profile-sec label.container input:checked ~ span.checkmark .select-address {
+	box-shadow: 0px 0px 0px 2px #c23127;
+	border-color: #fff;
+	border-radius: 0;
+}
+.profile-sec .select-address .radio-btn span {
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	box-shadow: 0px 0px 0px 1px #c23127;
+	top: 10px;
+	margin: 20px 20px;
+}
+.profile-sec
+	label.container
+	input:checked
+	~ span.checkmark
+	.select-address
+	.radio-btn
+	span {
+	background: #c23127;
+}
+.profile-sec .select-address {
+	position: relative;
+}
+.profile-sec .select-address .address-detail h5 {
+	width: 100%;
+	display: flex;
+	padding: 4px 0;
+	align-items: center;
+}
+.profile-sec .select-address .address-detail h5 span.property {
+	font-size: 18px;
+	color: #000;
+	font-weight: 300;
+}
+.profile-sec .select-address .address-detail h5 span.value {
+	margin-left: 20px;
+	font-weight: 300;
+	color: #000000;
+	font-size: 17px;
+}
+
+/* Second Tab Css Start Here */
+.profile-sec label.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+.profile-sec span.checkmark {
+	position: unset;
+}
+.profile-sec label.container {
+	padding: 0;
+}
+.profile-sec label.container .select-address {
+	border: 2px solid #b5b5b5;
+	padding: 12px 30px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 12px;
+	cursor: pointer;
+}
+.profile-sec label.container input:checked ~ span.checkmark .select-address {
+	box-shadow: 0px 0px 0px 2px #000000;
+	border-color: #fff;
+	border-radius: 0;
+}
+.profile-sec .select-address .radio-btn span {
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	box-shadow: 0px 0px 0px 1px #c23127;
+	top: 10px;
+	margin: 20px 20px;
+}
+.profile-sec
+	label.container
+	input:checked
+	~ span.checkmark
+	.select-address
+	.radio-btn
+	span {
+	background: #c23127;
+}
+.profile-sec .select-address {
+	position: relative;
+}
+/* .profile-sec .tab-box .select-address .address-detail {
+	padding-left: 20px;
+	margin-left: 30px;
+	border-left: 1px solid #7070705c;
+} */
+.profile-sec .select-address .address-detail h5 {
+	width: 100%;
+	display: flex;
+	padding: 4px 0;
+	align-items: center;
+	font-weight: 600;
+	color: #aaaaaa;
+}
+.profile-sec .select-address .address-detail h5 span.property {
+	font-size: 17px;
+	color: #000;
+	font-weight: 500;
+}
+.profile-sec .select-address .address-detail h5 span.value {
+	margin-left: 20px;
+	font-weight: 300;
+	color: #000000;
+	font-size: 17px;
+}
+.profile-sec .select-address .button-group {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+.profile-sec .select-address .address-detail button.btn {
+	background: #e7e7e7;
+	color: #7d7d7d;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: capitalize;
+	opacity: 1;
+	border-radius: 0;
+	padding: 6px 20px;
+}
+.profile-sec .select-address .address-detail button.lnk {
+	background: transparent;
+	border: 0;
+	font-size: 15px;
+	color: #1473e6;
+	text-decoration: underline;
+	margin-left: 10px;
+}
+.profile-sec .add-new-address {
+	padding-top: 20px;
+	position: relative;
+}
+.profile-sec .save-address {
+	margin-top: 40px;
+}
+.profile-sec .box .deafult {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+.profile-sec .deafult span.dot {
+	width: 16px;
+	height: 13px;
+	background: #707070;
+	display: block;
+	border-radius: 50%;
+	border: 2px solid #f4f4f4;
+	box-shadow: 0px 0px 0px 2px #aaaaaa;
+}
+.profile-sec .deafult h5 {
+	color: #1f2c35;
+	font-size: 15px;
+	margin: 0 20px 0 0px;
+}
+.profile-secx label.container input:checked ~ span.checkmark span.dot {
+	box-shadow: 0px 0px 0px 2px #c23127;
+	background: #c23127;
+}
+.profile-seclabel.container .select-address .actions a {
+	color: #000000;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.profile-sec label.container .select-address .actions {
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+.profile-sec .deafult {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+.profile-sec .save-address h3 {
+	font-family: "Poppins";
+	font-size: 26px;
+	font-weight: 600;
+	color: #000000;
+}
+/* Second Tab Css End Here */
+.profile-sec .save-address .heading {
+	margin-bottom: 34px;
+}
+.address-form-wrapper h5 {
+	color: #000000;
+	font-family: "Poppins";
+	font-size: 26px;
+	font-weight: 600;
+}
+.address-form-wrapper .heading {
+	padding-bottom: 30px;
+}
+.address-form-wrapper .form-wrapper label {
+	color: #433f40;
+	font-family: "Poppins";
+	font-size: 16px;
+	font-weight: 500;
+}
+.address-form-wrapper .form-wrapper input.form-control {
+	border: 1px solid #c8c8c8;
+	border-radius: 0px;
+	color: #b4b4b4;
+	font-weight: 500;
+	filter: none;
+	height: 45px;
+}

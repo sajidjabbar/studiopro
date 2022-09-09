@@ -1,11 +1,8 @@
 import React from "react";
-import Footer from "../../Components/Footer";
-import Header from "../../Components/Header";
 
 const CoursesDetail = () => {
 	return (
 		<>
-			<Header />
 			{/* courses Detail starts here */}
 			<section className="coursesDetail">
 				<div className="container">
@@ -22,7 +19,6 @@ const CoursesDetail = () => {
 				</div>
 			</section>
 			{/* courses Detail ends here */}
-			<Footer />
 		</>
 	);
 };

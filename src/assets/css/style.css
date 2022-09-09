@@ -46,6 +46,9 @@
 		hsl(46deg 75% 73%) 100%
 	);
 }
+a:hover {
+	text-decoration: none;
+}
 /* global css ends here */
 /* typpography starts here */
 * {
@@ -123,6 +126,77 @@ header#top ul.navbar-nav li a {
 header#top .nav-icons-wrapper ul {
 	justify-content: space-evenly;
 }
+/* mobile header starts here */
+header .mobile-header {
+	width: 30%;
+	height: 100%;
+	position: fixed;
+	background: #000;
+	top: 0;
+	z-index: 1;
+	right: 0;
+	padding-top: 30px;
+	transition: 0.7s;
+	transform: translateX(113%);
+	border: 3px solid #faca2c;
+	outline: 15px solid black;
+	margin: 10px;
+}
+header .mobile-header.show {
+	transform: translateX(0%);
+}
+header .mobile-header ul.mobile-nav {
+	margin-bottom: 0;
+	padding: 0;
+	list-style: none;
+}
+header .mobile-header .cancel {
+	background: #fff;
+	width: 35px;
+	text-align: center;
+	height: 35px;
+	line-height: 55px;
+	margin: 0px 20px 20px auto;
+}
+header .mobile-header ul.mobile-nav li.nav-item {
+	padding: 10px 0;
+	border: 0;
+	border-bottom: 1px solid #dddddd4a;
+}
+header .mobile-header ul.mobile-nav li.nav-item a {
+	color: #fff;
+	font-size: 14px;
+	padding: 0 20px;
+}
+header#top .canvas-icon {
+	display: none;
+}
+header#top .mobile-header ul.mobile-nav {
+	display: flex;
+	flex-direction: column;
+}
+header .mobile-header .cancel svg {
+	position: relative;
+	top: -11px;
+}
+/* mobile header ends here */
+/* responsive starts here */
+@media (max-width: 1100px) {
+	header#top .canvas-icon {
+		display: block;
+		text-align: end;
+	}
+	header#top .nav-icons-wrapper {
+		display: none;
+	}
+	header#top .navbar-wrapper {
+		display: none;
+	}
+	header#top .canvas-icon i {
+		font-size: 28px;
+	}
+}
+/* responsive ends here */
 /* Header ends here */
 /* page header starts here */
 .page-header {
@@ -160,6 +234,7 @@ header#top .nav-icons-wrapper ul {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	padding-top: 230px;
+	position: relative;
 }
 .banner-sec .banner-slider-wrapper-1 {
 	background-image: url("../img/banner-1-mg.png");
@@ -238,6 +313,33 @@ header#top .nav-icons-wrapper ul {
 	position: relative;
 	z-index: 9;
 }
+.banner-sec .banner-slider-wrapper::after {
+	content: url("../img/banner-after.png");
+	position: absolute;
+	bottom: -9px;
+	right: 0px;
+}
+/* responsive starts here */
+@media (max-width: 1440px) {
+	.banner-sec .banner-slider-wrapper {
+		height: 110vh;
+	}
+	.banner-slider-wrapper .banner-content-wrapper h1 {
+		font-size: 60px;
+	}
+}
+@media (max-width: 1280px) {
+	.banner-slider-wrapper .banner-content-wrapper p br {
+		display: none;
+	}
+}
+@media (max-width: 1100px) {
+	.banner-slider-wrapper .banner-content-wrapper h1 {
+		font-size: 49px;
+	}
+}
+
+/* responsive ends here */
 /* banner ends here */
 /* we are starts here */
 .we-are {
@@ -266,6 +368,13 @@ header#top .nav-icons-wrapper ul {
 	bottom: -36px;
 	right: 6%;
 }
+/* responsive starts here */
+@media (max-width: 1100px) {
+	.we-are .we-are-content ul li span {
+		font-size: 14px;
+	}
+}
+/* responsive ends here */
 /* we are ends here */
 /* mission starts here */
 .mission-sec {
@@ -289,6 +398,20 @@ header#top .nav-icons-wrapper ul {
 .mission-sec p {
 	color: #fff;
 }
+/* responsive starts here */
+@media (max-width: 1440px) {
+	.mission-sec {
+		background-position: left !important;
+	}
+}
+@media (max-width: 1100px) {
+	.mission-sec h2 {
+		color: #fff;
+		font-size: 40px;
+	}
+}
+
+/* responsive ends here */
 /* mission ends here */
 /* traniee starts here */
 .meet-tranies {
@@ -357,6 +480,11 @@ header#top .nav-icons-wrapper ul {
 	border-bottom: 1px solid #707070;
 	border-right: 1px solid #707070;
 }
+.chat-img1 img {
+	height: 60px;
+	width: 60px;
+	object-fit: cover;
+}
 .makeup-box-wrapper .col-lg-4 {
 	padding: 0px;
 }
@@ -377,6 +505,21 @@ header#top .nav-icons-wrapper ul {
 .our-classses .makeup-box-wrapper .col-lg-4:nth-child(5) .boxes-wrapper {
 	border-bottom: 0px;
 }
+/* respponsive starts here */
+@media (max-width: 1440px) {
+	.our-classses {
+		height: 74vh;
+	}
+}
+@media (max-width: 1280px) {
+	.our-classses {
+		height: 74vh;
+		background-size: cover;
+		background-position: right;
+	}
+}
+
+/* responsive ends here */
 /* classes ends here */
 /* video btn starts here */
 .video-sec h6 {
@@ -509,6 +652,24 @@ header#top .nav-icons-wrapper ul {
 	left: 25%;
 	z-index: 9;
 }
+/* responssive starts here */
+@media (max-width: 1440px) {
+	.client-sec {
+		height: 75vh;
+	}
+}
+@media (max-width: 1100px) {
+	.client-sec .client-heading-wrapper {
+		margin-bottom: 15px;
+	}
+	.client-sec .client-heading-wrapper h2 {
+		font-size: 40px;
+	}
+	.client-sec .client-content p {
+		font-size: 13px;
+	}
+}
+
 /* client ends here */
 /* blog starts here */
 .blogs {

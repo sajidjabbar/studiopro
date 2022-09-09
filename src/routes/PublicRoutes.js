@@ -10,7 +10,6 @@ import Checkout from "../Pages/checkout/checkout";
 import Classes from "../Pages/Classes/Classes";
 import Faq from "../Pages/Faq/Faq";
 import Home from "../Pages/Home/Home";
-import News from "../Pages/News/News";
 import NewsDetail from "../Pages/News/NewsDetail";
 import Privacy from "../Pages/Privacy/Privacy";
 import Terms from "../Pages/Privacy/Terms";
@@ -23,8 +22,34 @@ import OnlineCourses from "../Pages/Profile/OnlineCourses";
 import Profile from "../Pages/Profile/Profile";
 import Thankyou from "../Pages/Thankyou/Thankyou";
 import Wishlist from "../Pages/wishlist/wishlist";
+import Contact from "../Pages/Contact/Contact";
+import News from "../Pages/News/News";
+import Shop1 from "../Pages/Shop/Shop1";
+import Shop2 from "../Pages/Shop/Shop2";
+import ClassesDetail from "../Pages/Classes/ClassesDetail";
+import Addresses from "../Pages/Profile/Addresses";
+import Payment from "../Pages/Profile/Payment";
+import ChangePassword from "../Pages/Profile/ChangePassword";
+import Order from "../Pages/Profile/Order";
+import InPerson from "../Pages/Profile/InPerson";
+import HybridCourses from "../Pages/Profile/HybridCourses";
+import { useEffect } from "react";
+import $ from "jquery";
 
 const PublicRoutes = () => {
+	useEffect(() => {
+		// Mobile Nav
+		$("document").ready(function () {
+			$("header .canvas-icon i").click(function () {
+				$("header .mobile-header").addClass("show");
+			});
+
+			$("header .mobile-header .cancel").click(function () {
+				$("header .mobile-header").removeClass("show");
+			});
+		});
+		// Mobile Nav
+	}, []);
 	return (
 		<>
 			<BrowserRouter>
@@ -32,6 +57,7 @@ const PublicRoutes = () => {
 					<Route path="/" element={<Home />} />
 					<Route path="/about-us" element={<About />} />
 					<Route path="/classes" element={<Classes />} />
+					<Route path="/classes-detail" element={<ClassesDetail />} />
 					<Route path="/News" element={<News />} />
 					<Route path="/NewsDetail" element={<NewsDetail />} />
 					<Route path="/Privacy" element={<Privacy />} />
@@ -49,9 +75,18 @@ const PublicRoutes = () => {
 					<Route path="/profile" element={<Profile />} />
 					<Route path="/my-courses" element={<MyCourses />} />
 					<Route path="/MyProfile" element={<MyProfile />} />
+					<Route path="/My-Address" element={<Addresses />} />
+					<Route path="/Payment" element={<Payment />} />
+					<Route path="/changePassword" element={<ChangePassword />} />
 					<Route path="/Myorder" element={<Myorder />} />
 					<Route path="/BladingDetail" element={<BladingDetail />} />
 					<Route path="/OnlineCourses" element={<OnlineCourses />} />
+					<Route path="/Contact" element={<Contact />} />
+					<Route path="/Shop1" element={<Shop1 />} />
+					<Route path="/Shop2" element={<Shop2 />} />
+					<Route path="/Order" element={<Order />} />
+					<Route path="/InPerson" element={<InPerson />} />
+					<Route path="/HybridCourses" element={<HybridCourses />} />
 				</Routes>
 			</BrowserRouter>
 		</>

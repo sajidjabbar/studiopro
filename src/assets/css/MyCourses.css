@@ -11,13 +11,16 @@
 }
 .mycourses .courses-tabs-list-wrapper ul li a.nav-item {
 	border: 1px solid #131313;
-	margin-right: 24px;
-	padding: 9px 29px;
+	margin-right: 8px;
+	padding: 10px 0px;
 	color: #131313;
 	font-size: 15px;
 	font-weight: 600;
 	font-family: "Poppins";
 	text-decoration: none;
+	width: 170px;
+	display: inline-flex;
+	justify-content: center;
 }
 .mycourses .courses-tabs-list-wrapper {
 	margin-bottom: 37px;
@@ -115,11 +118,13 @@
 		hsl(44deg 66% 66%) 91%,
 		hsl(46deg 75% 73%) 100%
 	);
-	padding: 10px 40px;
+	padding: 10px 0px;
 	background-repeat: no-repeat;
 	border-radius: 0px;
 	color: #0c0200;
 	font-weight: 500;
 	transition: 0.3s;
 	border: 0px;
+	margin-right: 8px;
+	width: 170px;
 }

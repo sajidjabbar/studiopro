@@ -428,62 +428,19 @@ const Home = () => {
 											<h3>Emily Clark</h3>
 											<ul>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star-half-stroke"></i>
-												</li>
-											</ul>
-										</div>
-										<div className="quote-wrapper">
-											<img src={quote} alt="" />
-										</div>
-									</div>
-
-									<div className="client-content">
-										<p>
-											The standard chunk of Lorem Ipsum used since the 1500s is
-											reproduced below for those interested. Sections 1.10.32
-											and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
-											are also reproduced in their exact original form,
-											accompanied by English versions from the 1914 translation
-											by H. Rackham.
-										</p>
-									</div>
-								</div>
-								<div className="client-slider-wrapper">
-									<div className="img-rating-wrapper">
-										<div className="img-wrapper">
-											<figure>
-												<img src={test1} alt="" />
-											</figure>
-										</div>
-										<div className="client-name-wrapper">
-											<h3>Emily Clark</h3>
-											<ul>
-												<li>
-													<i class="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i class="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i class="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i class="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i class="fa-solid fa-star-half-stroke"></i>
+													<i className="fa-solid fa-star-half-stroke"></i>
 												</li>
 											</ul>
 										</div>
@@ -514,19 +471,19 @@ const Home = () => {
 											<h3>Emily Clark</h3>
 											<ul>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star-half-stroke"></i>
+													<i className="fa-solid fa-star-half-stroke"></i>
 												</li>
 											</ul>
 										</div>
@@ -557,19 +514,62 @@ const Home = () => {
 											<h3>Emily Clark</h3>
 											<ul>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
 												</li>
 												<li>
-													<i class="fa-solid fa-star-half-stroke"></i>
+													<i className="fa-solid fa-star-half-stroke"></i>
+												</li>
+											</ul>
+										</div>
+										<div className="quote-wrapper">
+											<img src={quote} alt="" />
+										</div>
+									</div>
+
+									<div className="client-content">
+										<p>
+											The standard chunk of Lorem Ipsum used since the 1500s is
+											reproduced below for those interested. Sections 1.10.32
+											and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+											are also reproduced in their exact original form,
+											accompanied by English versions from the 1914 translation
+											by H. Rackham.
+										</p>
+									</div>
+								</div>
+								<div className="client-slider-wrapper">
+									<div className="img-rating-wrapper">
+										<div className="img-wrapper">
+											<figure>
+												<img src={test1} alt="" />
+											</figure>
+										</div>
+										<div className="client-name-wrapper">
+											<h3>Emily Clark</h3>
+											<ul>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star-half-stroke"></i>
 												</li>
 											</ul>
 										</div>

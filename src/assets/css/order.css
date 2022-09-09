@@ -1,0 +1,124 @@
+.order .order-card-wrapper {
+	background: #f9f9f9;
+	padding: 34px 20px;
+	border-radius: 10px;
+	position: relative;
+}
+.order {
+	padding: 100px 0px;
+}
+.order .order-card-wrapper .order-heading-wrapper {
+	text-align: center;
+}
+.order .order-card-wrapper .order-heading-wrapper h5 {
+	color: #c59531;
+	font-size: 21px;
+	font-weight: 700;
+}
+.order .order-card-wrapper .order-heading-wrapper h4 {
+	color: #2a263d;
+	font-size: 30px;
+	font-weight: 400;
+}
+.order .order-product-wrapper .heading-wrapper h6 {
+	color: #c59531;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+}
+.order .products-wrapper .single-products-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.order .products-wrapper .single-products-wrapper .img-wrapper {
+	flex: 0 0 25%;
+}
+.order .order-card-wrapper .products-wrapper {
+	width: 87%;
+	margin: 0 auto;
+	height: 157px;
+	overflow-x: hidden;
+	margin-bottom: 32px;
+}
+.order .order-card-wrapper .products-wrapper::-webkit-scrollbar {
+	background-color: #c59531;
+	width: 5px;
+}
+.order .products-wrapper .single-products-wrapper .product-content-wrapper {
+	flex: 0 0 50%;
+}
+.order .products-wrapper .single-products-wrapper .price-wrapper {
+	flex: 0 0 25%;
+}
+.order-card-wrapper .order-details-wrapper .order-list-wrapper ul {
+	padding: 0px;
+	list-style: none;
+	width: 87%;
+	margin: 0 auto;
+}
+.order-card-wrapper .order-details-wrapper .order-list-wrapper ul li {
+	display: flex;
+	justify-content: space-between;
+	padding: 2px 0px;
+}
+.order-card-wrapper .order-details-wrapper .order-list-wrapper ul li span {
+	font-family: "Poppins";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 500;
+}
+.order-card-wrapper
+	.order-details-wrapper
+	.order-list-wrapper
+	ul
+	li
+	span.property {
+	flex: 0 0 66%;
+}
+.order-card-wrapper
+	.order-details-wrapper
+	.order-list-wrapper
+	ul
+	li
+	span.value {
+	flex: 0 0 34%;
+}
+.order .shipment-list-wrapper li {
+	display: flex;
+	justify-content: space-between;
+}
+.order .shipment-list-wrapper ul {
+	padding: 0px;
+	width: 87%;
+	margin: 0px auto;
+}
+.order .shipment-list-wrapper li span {
+	font-family: "Poppins";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 500;
+}
+.order .order-card-wrapper .shipment-wrapper {
+	margin-top: 30px;
+}
+.order .products-wrapper .single-products-wrapper .price-wrapper h4 {
+	color: #c59531;
+	font-size: 18px;
+	font-weight: 600;
+}
+.order .products-wrapper .single-products-wrapper .img-wrapper img {
+	height: 67px;
+	width: 87px;
+	object-fit: cover;
+}
+.order button.close {
+	position: absolute;
+	top: 2%;
+	right: 4%;
+	opacity: 1;
+}
+.order button.close i {
+	color: #c59531;
+	opacity: 1;
+}

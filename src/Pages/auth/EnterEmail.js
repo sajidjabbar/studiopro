@@ -19,7 +19,7 @@ const EnterEmail = () => {
 								<div className="taglines pb-3 text-center">
 									<h3>A link will be sent your provided email</h3>
 								</div>
-								<form>
+								<form action="NewPassword">
 									<div className="form-group">
 										<input
 											type="email"
@@ -28,14 +28,14 @@ const EnterEmail = () => {
 										/>
 									</div>
 									<div className="col-md-12 px-0 text-right mt-3">
-										<button className="btn" type="button">
+										<button className="btn" type="Submit">
 											Submit
 										</button>
 									</div>
 									<div className="privacyDv mt-5 pt-5">
 										<p>
 											By Creating Account you are agree to our{" "}
-											<a href="#"> Terms & conditions</a>
+											<a href="/terms"> Terms & conditions</a>
 										</p>
 									</div>
 								</form>
@@ -51,9 +51,11 @@ const EnterEmail = () => {
 								</div>
 
 								<div className="LogoBox">
-									<figure>
-										<img src={auth_logo} alt="" />
-									</figure>
+									<a href="/">
+										<figure>
+											<img src={auth_logo} alt="" />
+										</figure>
+									</a>
 								</div>
 							</div>
 						</div>
