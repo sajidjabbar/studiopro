@@ -426,6 +426,7 @@ header .mobile-header .cancel svg {
 	position: relative;
 	top: -59px;
 	object-fit: cover;
+	object-position: right;
 }
 .meet-tranies .content-wrapper {
 	text-align: center;
@@ -585,7 +586,7 @@ header .mobile-header .cancel svg {
 }
 .client-sec .client-content p {
 	color: #ffffff;
-	font-size: 15px;
+	font-size: 12px;
 	font-family: "Poppins";
 }
 .client-sec .client-content {
@@ -593,12 +594,12 @@ header .mobile-header .cancel svg {
 }
 .client-sec .img-rating-wrapper .client-name-wrapper h3 {
 	color: #ffffff;
-	font-size: 33px;
+	font-size: 27px;
 	line-height: 1;
 }
 .client-sec .client-heading-wrapper h2 {
 	color: #ffffff;
-	font-size: 48px;
+	font-size: 40px;
 	line-height: 1.4;
 }
 .client-sec .client-heading-wrapper {
@@ -648,9 +649,19 @@ header .mobile-header .cancel svg {
 	font-family: "FontAwesome";
 }
 .client-sec .slick-next {
-	top: 106%;
+	top: 103%;
 	left: 25%;
 	z-index: 9;
+}
+.client-sec .slick-dots {
+	position: absolute;
+	bottom: -21px;
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
 }
 /* responssive starts here */
 @media (max-width: 1440px) {

@@ -425,7 +425,7 @@ const Home = () => {
 											</figure>
 										</div>
 										<div className="client-name-wrapper">
-											<h3>Emily Clark</h3>
+											<h3>Laura BIRMINGHAM, MI</h3>
 											<ul>
 												<li>
 													<i className="fa-solid fa-star"></i>
@@ -451,16 +451,107 @@ const Home = () => {
 
 									<div className="client-content">
 										<p>
-											The standard chunk of Lorem Ipsum used since the 1500s is
-											reproduced below for those interested. Sections 1.10.32
-											and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
-											are also reproduced in their exact original form,
-											accompanied by English versions from the 1914 translation
-											by H. Rackham.
+											Very informative, great atmosphere, patient and perfect
+											for someone with some experience also. Great instructors
+											with friendly personality, and still very professional.
 										</p>
 									</div>
 								</div>
 								<div className="client-slider-wrapper">
+									<div className="img-rating-wrapper">
+										<div className="img-wrapper">
+											<figure>
+												<img src={test1} alt="" />
+											</figure>
+										</div>
+										<div className="client-name-wrapper">
+											<h3>Ashley P.Grand rapids, MI</h3>
+											<ul>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star-half-stroke"></i>
+												</li>
+											</ul>
+										</div>
+										<div className="quote-wrapper">
+											<img src={quote} alt="" />
+										</div>
+									</div>
+
+									<div className="client-content">
+										<p>
+											Absolutely loved training with Dawn! I have trained with
+											many professionals and I must say she was one of the best!
+											Very knowledgeable and patient. I would definitely
+											recommend her to anyone looking to boost their career.
+										</p>
+									</div>
+								</div>
+								<div className="client-slider-wrapper">
+									<div className="img-rating-wrapper">
+										<div className="img-wrapper">
+											<figure>
+												<img src={test1} alt="" />
+											</figure>
+										</div>
+										<div className="client-name-wrapper">
+											<h3>Ashley MIndianapolis, IN</h3>
+											<ul>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i className="fa-solid fa-star-half-stroke"></i>
+												</li>
+											</ul>
+										</div>
+										<div className="quote-wrapper">
+											<img src={quote} alt="" />
+										</div>
+									</div>
+
+									<div className="client-content">
+										<p>
+											My experience as an apprentice with Dawn exceeded my
+											expectations, I learned so much from her. Her experience
+											in the beauty industry is extensive, I feel like I can’t
+											stop learning from her even after I completed my
+											apprenticeship. She is very detail oriented and very
+											meticulous, especially during my lash and permanent makeup
+											training. I truly believe that I was more than ready to
+											take on new clients thanks to her. I highly recommend her
+											and her programs.Nati KI had the opportunity to learn Lash
+											Extensions with Studio Pro. What an experience! They were
+											patient and kind. Very thorough and ran through scenarios
+											that you will actually have with real clients. The kit had
+											everything you needed and they will give you a list of
+											other popular items for the services you are training for!
+											I have referred many of my colleagues to them for more
+											training!
+										</p>
+									</div>
+								</div>
+								{/* <div className="client-slider-wrapper">
 									<div className="img-rating-wrapper">
 										<div className="img-wrapper">
 											<figure>
@@ -491,7 +582,6 @@ const Home = () => {
 											<img src={quote} alt="" />
 										</div>
 									</div>
-
 									<div className="client-content">
 										<p>
 											The standard chunk of Lorem Ipsum used since the 1500s is
@@ -502,92 +592,7 @@ const Home = () => {
 											by H. Rackham.
 										</p>
 									</div>
-								</div>
-								<div className="client-slider-wrapper">
-									<div className="img-rating-wrapper">
-										<div className="img-wrapper">
-											<figure>
-												<img src={test1} alt="" />
-											</figure>
-										</div>
-										<div className="client-name-wrapper">
-											<h3>Emily Clark</h3>
-											<ul>
-												<li>
-													<i className="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i className="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i className="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i className="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i className="fa-solid fa-star-half-stroke"></i>
-												</li>
-											</ul>
-										</div>
-										<div className="quote-wrapper">
-											<img src={quote} alt="" />
-										</div>
-									</div>
-
-									<div className="client-content">
-										<p>
-											The standard chunk of Lorem Ipsum used since the 1500s is
-											reproduced below for those interested. Sections 1.10.32
-											and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
-											are also reproduced in their exact original form,
-											accompanied by English versions from the 1914 translation
-											by H. Rackham.
-										</p>
-									</div>
-								</div>
-								<div className="client-slider-wrapper">
-									<div className="img-rating-wrapper">
-										<div className="img-wrapper">
-											<figure>
-												<img src={test1} alt="" />
-											</figure>
-										</div>
-										<div className="client-name-wrapper">
-											<h3>Emily Clark</h3>
-											<ul>
-												<li>
-													<i className="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i className="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i className="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i className="fa-solid fa-star"></i>
-												</li>
-												<li>
-													<i className="fa-solid fa-star-half-stroke"></i>
-												</li>
-											</ul>
-										</div>
-										<div className="quote-wrapper">
-											<img src={quote} alt="" />
-										</div>
-									</div>
-									<div className="client-content">
-										<p>
-											The standard chunk of Lorem Ipsum used since the 1500s is
-											reproduced below for those interested. Sections 1.10.32
-											and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
-											are also reproduced in their exact original form,
-											accompanied by English versions from the 1914 translation
-											by H. Rackham.
-										</p>
-									</div>
-								</div>
+								</div> */}
 							</Slider>
 						</div>
 						<div className="col-lg-6">

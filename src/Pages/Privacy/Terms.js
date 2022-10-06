@@ -33,86 +33,135 @@ const Terms = () => {
 									</div>
 								</div>
 								<div className="privacy-content-wrapper">
+									<h4>Disclaimer</h4>
+									<h4>LEGAL TERMS FOR (website here)</h4>
+									<h4>Pater Up North LLC; Studio Pro DBA</h4>
+									<br />
+									<h4>I. General</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod tempor incididunt ut labore et dolore magna
-										aliqua. Malesuada fames ac turpis egestas integer eget
-										aliquet. Placerat orci nulla pellentesque dignissim. Netus
-										et malesuada fames ac turpis. Enim praesent elementum
-										facilisis leo vel fringilla est ullamcorper. Neque aliquam
-										vestibulum morbi blandit cursus risus at. Eget nunc lobortis
-										mattis aliquam. Semper auctor neque vitae tempus quam.
-										Tempor id eu nisl nunc mi ipsum faucibus. Diam quis enim
-										lobortis scelerisque fermentum dui faucibus. Nisi est sit
-										amet facilisis magna. Elementum pulvinar etiam non quam
-										lacus suspendisse faucibus interdum posuere. Sit amet purus
-										gravida quis blandit turpis cursus. Non curabitur gravida
-										arcu ac tortor dignissim convallis aenean. Scelerisque in
-										dictum non consectetur a erat nam at. Elit ut aliquam purus
-										sit amet luctus.
+										Your access to and use of this site is subject to the
+										following Legal Terms. Please read these Legal Terms
+										carefully before accessing or using the site, so that you
+										fully understand your rights and responsibilities. BY
+										ACCESSING OR USING THE SITE, YOU SIGNIFY YOUR AGREEMENT WITH
+										THESE LEGAL TERMS.PATER UP NORTH LLC via STUDIO PRO RESERVES
+										THE RIGHT TO CHANGE THESE LEGAL TERMS AT ANY TIME. IF WE
+										DECIDE TO CHANGE THE LEGAL TERMS, WE WILL POST ANY CHANGES
+										ON THIS WEB SITE. ANY SUCH CHANGES SHALL BE EFFECTIVE UPON
+										POSTINGON THE WEB SITE. BY ACCESSING THE SITE FOLLOWING THE
+										POSTING OF CHANGES TO THE LEGAL TERMS, YOU AGREE TO ALL SUCH
+										CHANGES.These Legal Terms are agreed to by and between you
+										and STUDIO PRO (PATER UP NORTH LLC). In consideration of
+										your use of and access to this web site, and the promises
+										and obligations in these Legal Terms, and intending to be
+										legally bound, you and STUDIO PRO (PATER UP NORTH LLC)
+										hereby agree to all of the terms and conditions of these
+										Legal Terms. These Legal Terms describe the terms and
+										conditions under which STUDIO PRO (PATER UP NORTH LLC)
+										welcomes you to this site. Please read the Legal Terms
+										carefully so that you fully understand your rights and
+										responsibilities.
 									</p>
+								</div>
+								<div className="privacy-content-wrapper">
+									<h4>
+										II. STUDIO PRO (PATER UP NORTH LLC) Intellectual Property
+										Rights
+									</h4>
 									<p>
-										Pretium aenean pharetra magna ac. Proin fermentum leo vel
-										orci porta non pulvinar. Sed enim ut sem viverra aliquet.
-										Nullam non nisi est sit amet facilisis magna etiam. Enim sit
-										amet venenatis urna. Nisi scelerisque eu ultrices vitae
-										auctor eu augue ut lectus. Ac turpis egestas integer eget
-										aliquet. Erat nam at lectus urna duis convallis convallis
-										tellus. Id venenatis a condimentum vitae sapien. Et odio
-										pellentesque diam volutpat commodo sed. Dictum sit amet
-										justo donec enim diam vulputate ut. Commodo ullamcorper a
-										lacus vestibulum. Quam nulla porttitor massa id neque
-										aliquam vestibulum morbi blandit. Nec feugiat in fermentum
-										posuere urna nec.
+										Copyright 2022 STUDIO PRO (PATER UP NORTH LLC). All rights
+										reserved.All copyrightable text, audio, video, graphics,
+										charts, photographs and icons, design, selection, and
+										arrangement of content in any medium on this site is
+										copyrighted by STUDIO PRO (PATER UP NORTH LLC), unless
+										otherwise noted. The distinctive and original layout and
+										presentation of this site also constitutes protectable trade
+										dress under applicable federal law. In addition, many
+										registered and unregistered marks may appear throughout this
+										site and they are the sole property of STUDIO PRO (PATER UP
+										NORTH LLC). This site may also contain references to
+										third-party marks, which are the property of their
+										respective owners. If you have any questions regarding a
+										specific mark or any other STUDIO PRO (PATER UP NORTH LLC)
+										intellectual property, please contact STUDIO PRO (PATER UP
+										NORTH LLC).Any unauthorized use of any of STUDIO PRO (PATER
+										UP NORTH LLC) marks, or of its copyrighted material or trade
+										dress or any other intellectual property, is strictly
+										prohibited, and will be prosecuted to the fullest extent
+										that the law provides.
 									</p>
+								</div>
+								<div className="privacy-content-wrapper">
+									<h4>III. Use of This Site</h4>
 									<p>
-										Consequat nisl vel pretium lectus quam id. Nam at lectus
-										urna duis convallis convallis tellus. Donec ac odio tempor
-										orci dapibus. Sit amet consectetur adipiscing elit. Purus in
-										mollis nunc sed id semper risus in hendrerit. At ultrices mi
-										tempus imperdiet nulla malesuada pellentesque elit. Mattis
-										aliquam faucibus purus in massa. Sed risus pretium quam
-										vulputate dignissim suspendisse. Et ligula ullamcorper
-										malesuada proin libero nunc consequat. Sem nulla pharetra
-										diam sit amet nisl suscipit adipiscing bibendum. Odio ut sem
-										nulla pharetra diam sit amet. Eget nullam non nisi est sit
-										amet facilisis magna. Venenatis lectus magna fringilla urna
-										porttitor rhoncus dolor purus non. Blandit turpis cursus in
-										hac habitasse platea dictumst. Volutpat est velit egestas
-										dui id. Aliquam faucibus purus in massa tempor. Rhoncus
-										dolor purus non enim praesent elementum facilisis. Nullam
-										vehicula ipsum a arcu cursus vitae congue mauris.
+										Permission is granted to download this site’s content and to
+										print a single hard copy for the user’s use only. You may
+										not otherwise use,copy, modify, distribute, republish or
+										transmit any of the content or materials of this site
+										without the written permission of STUDIO PRO (PATER UP NORTH
+										LLC).You understand and expressly agree that use of this
+										site is at your own risk, that any material or data
+										downloaded or otherwise obtained through the use of the site
+										or by virtue of interaction with other users is at your own
+										discretion and risk, and that you are solely responsible for
+										any damage to your computer system or loss of data that
+										results from the download of such material or data, and for
+										any other form of damage that may be incurred. STUDIO PRO
+										(PATER UP NORTH LLC) SHALL NOT BE LIABLE TO USERS FOR ANY
+										DAMAGE RESULTING FROM USE OF THE SITE, NOR IS STUDIO PRO
+										(PATER UP NORTH LLC) IN ANY WAY RESPONSIBLE FOR THE CONDUCT
+										OF USERS, OR INFORMATION EXCHANGED ON THE SITE. Although
+										STUDIO PRO (PATER UP NORTH LLC) endeavors to provide
+										accurate information, this site is intended to be for
+										general reference purposes only. STUDIO PRO (PATER UP NORTH
+										LLC) makesno guarantees with respect to any information
+										provided on the site.
 									</p>
+								</div>
+								<div className="privacy-content-wrapper">
+									<h4>IV. No Warranty</h4>
 									<p>
-										In mollis nunc sed id semper risus. Tortor posuere ac ut
-										consequat semper viverra. Maecenas sed enim ut sem.
-										Vestibulum lorem sed risus ultricies tristique nulla aliquet
-										enim tortor. Faucibus ornare suspendisse sed nisi. Cursus
-										euismod quis viverra nibh. In arcu cursus euismod quis
-										viverra nibh. Nunc sed id semper risus in hendrerit gravida
-										rutrum quisque. Lorem ipsum dolor sit amet. Est ultricies
-										integer quis auctor elit sed vulputate. Etiam sit amet nisl
-										purus. Vel facilisis volutpat est velit egestas dui id.
-										Molestie nunc non blandit massa enim nec dui nunc mattis.
-										Fermentum iaculis eu non diam phasellus vestibulum lorem
-										sed. Quis commodo odio aenean sed adipiscing diam. Tellus
-										orci ac auctor augue mauris augue neque. Nisi scelerisque eu
-										ultrices vitae auctor. Convallis aenean et tortor at risus
-										viverra. Neque egestas congue quisque egestas diam in arcu
-										cursus. Ultrices sagittis orci a scelerisque purus semper
-										eget.
+										USER EXPRESSLY UNDERSTANDS AND AGREES THAT STUDIO PRO (PATER
+										UP NORTH LLC) SHALL NOT BE LIABLE FOR ANY LOSS OR DAMAGE
+										(DIRECT, INDIRECT, PUNITIVE, ACTUAL, CONSEQUENTIAL,
+										INCIDENTAL, SPECIAL, OR OTHERWISE) RESULTING FROM ANY USE
+										OF, OR INABILITY TO USE, THIS WEBSITE, OR RESULTING FROM ANY
+										ERRORS OR OMISSIONS IN THE CONTENT OF THIS WEBSITE,
+										REGARDLESS OF THE BASIS UPON WHICH LIABILITY IS CLAIMED,
+										EVEN IF STUDIO PRO (PATER UP NORTH LLC) HAS BEEN ADVISED OF
+										THE POSSIBILITY OF SUCH LOSS OR DAMAGE.THIS LIMITATION IS
+										SUBJECT TO THE PROVISIONS OF ANY APPLICABLE LAW THAT MAY
+										RESTRICT ITS SCOPE.
 									</p>
+								</div>
+								<div className="privacy-content-wrapper">
+									<h4>V. No Liability</h4>
 									<p>
-										Integer vitae justo eget magna fermentum iaculis eu non.
-										Eget felis eget nunc lobortis mattis aliquam faucibus purus.
-										Porttitor lacus luctus accumsan tortor. Viverra adipiscing
-										at in tellus integer. Consectetur a erat nam at lectus urna
-										duis. Pharetra convallis posuere morbi leo. Pellentesque eu
-										tincidunt tortor aliquam nulla facilisi cras fermentum. Enim
-										ut tellus elementum sagittis. Faucibus scelerisque eleifend
-										donec pretium vulputate. Volutpat ac tincidunt vitae semper.
-										Tincidunt arcu non sodales neque. Velit egestas dui id
-										ornare arcu odio.
+										In no event shall STUDIO PRO (PATER UP NORTH LLC) or any of
+										its affiliates, officers, directors, employees, consultants
+										or agents be liable for any direct, indirect, punitive,
+										special, incidental, or consequential damages or any damages
+										whatsoever, including, without limitation, damages for loss
+										of use, data, information, profitsor business interruption,
+										arising out of or in any way related to the use or
+										performance of this web site or any linked site, to any
+										information or products or anything else obtained through
+										this site, or otherwise arising out of the use of this site,
+										or to the inability to use the site, whether based in tort,
+										contract, negligence, strict liability or otherwise, even if
+										STUDIO PRO (PATER UP NORTH LLC) has been advised of the
+										possibility of damages. Your sole and exclusive remedy is to
+										discontinue using this web site.
+									</p>
+								</div>
+								<div className="privacy-content-wrapper">
+									<h4>VI. STUDIO PRO (PATER UP NORTH LLC) Indemnified</h4>
+									<p>
+										You agree to indemnify, defend and hold harmless STUDIO PRO
+										(PATER UP NORTH LLC), its affiliates, officers, directors,
+										employees, consultants and agents from any and all losses,
+										expenses, third-party claims, liability, damages and costs
+										(including, but not limited
 									</p>
 								</div>
 							</div>

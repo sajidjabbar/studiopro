@@ -44,13 +44,12 @@ const Classes = () => {
 						<div className="col-lg-6 align-self-center">
 							<div className="classes-content-wrapper">
 								<h2>Classes</h2>
-								<p>
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book.
-								</p>
+								<h4>NOTE: ALL CLASSES WILL HAVE THE FOLLOWING OPTIONS:</h4>
+								<ul>
+									<li>LIVE</li>
+									<li>ONLINE</li>
+									<li>HYBRID</li>
+								</ul>
 							</div>
 						</div>
 						<div className="col-lg-6">
@@ -84,7 +83,7 @@ const Classes = () => {
 									</figure>
 								</div>
 								<div className="makepup-content-wrapper">
-									<h3>Microblading 101</h3>
+									<h3>Microblading</h3>
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 										do eiusmod
@@ -101,7 +100,7 @@ const Classes = () => {
 								</figure>
 							</div>
 							<div className="makepup-content-wrapper">
-								<h3>Microblading 201Shading /Ombre</h3>
+								<h3>Shading/Ombre</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 									do eiusmod
@@ -167,7 +166,7 @@ const Classes = () => {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="content-wrapper">
-								<h2>LashExtensions</h2>
+								<h2>Lash Extensions</h2>
 							</div>
 						</div>
 					</div>
@@ -180,7 +179,7 @@ const Classes = () => {
 								</figure>
 							</div>
 							<div className="makepup-content-wrapper">
-								<h3>Classic LashExtensions</h3>
+								<h3>Classic Lashes</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 									do eiusmod
@@ -196,7 +195,7 @@ const Classes = () => {
 								</figure>
 							</div>
 							<div className="makepup-content-wrapper">
-								<h3>Hybrid / VolumeLash Extensions</h3>
+								<h3>Volume Lashes</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 									do eiusmod
@@ -212,7 +211,7 @@ const Classes = () => {
 								</figure>
 							</div>
 							<div className="makepup-content-wrapper">
-								<h3>Combo Classic &Volume</h3>
+								<h3>Combo (Classic, Hybrid & Volume)</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 									do eiusmod
@@ -275,7 +274,7 @@ const Classes = () => {
 								</figure>
 							</div>
 							<div className="makepup-content-wrapper">
-								<h3>Lash Lift w/ Brow Lamination</h3>
+								<h3>Lash Lift & Tint w/ Brow Lamination Combo Class</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 									do eiusmod
@@ -291,7 +290,7 @@ const Classes = () => {
 								</figure>
 							</div>
 							<div className="makepup-content-wrapper">
-								<h3>Henna Brow</h3>
+								<h3>Airbrush Makeup</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 									do eiusmod
@@ -307,7 +306,7 @@ const Classes = () => {
 								</figure>
 							</div>
 							<div className="makepup-content-wrapper">
-								<h3>Airbrush Makeup</h3>
+								<h3>Dermaplaning</h3>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 									do eiusmod
@@ -318,6 +317,9 @@ const Classes = () => {
 					</div>
 				</div>
 			</section>
+			<div className="btncenter">
+				<button className="btn ">Massage Therapy Online Portion only</button>
+			</div>
 			{/* makeup sec ends here */}
 			<Footer />
 		</>

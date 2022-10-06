@@ -8,7 +8,7 @@ import banner_3_img from "../assets/img/banner-3-mg.png";
 import checkbox_img from "../assets/img/checkbox.png";
 import about_img from "../assets/img/about.png";
 import brush from "../assets/img/brush.png";
-import mission from "../assets/img/mission.png";
+import mission from "../assets/img/mission.webp";
 import tranies1 from "../assets/img/tranie1.png";
 import tranies2 from "../assets/img/tranie2.png";
 import tranies3 from "../assets/img/tranie3.png";
