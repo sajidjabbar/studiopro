@@ -157,6 +157,9 @@ const Classes = () => {
 							</div>
 						</div>
 					</div>
+					<div className="btncenter">
+						<button className="btn ">PERMANENT MAKEUP</button>
+					</div>
 				</div>
 			</section>
 			{/* makeup sec ends here */}
@@ -219,6 +222,9 @@ const Classes = () => {
 								<span>26-Jan-2022</span>
 							</div>
 						</div>
+					</div>
+					<div className="btncenter">
+						<button className="btn ">LASH EXTENSION TRAINING</button>
 					</div>
 				</div>
 			</section>
@@ -314,6 +320,9 @@ const Classes = () => {
 								<span>26-Jan-2022</span>
 							</div>
 						</div>
+					</div>
+					<div className="btncenter">
+						<button className="btn ">ADVANCED ESTHETIC TRAINING</button>
 					</div>
 				</div>
 			</section>

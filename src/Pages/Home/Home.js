@@ -425,7 +425,9 @@ const Home = () => {
 											</figure>
 										</div>
 										<div className="client-name-wrapper">
-											<h3>Laura BIRMINGHAM, MI</h3>
+											<h3>
+												Laura <br /> BIRMINGHAM, MI
+											</h3>
 											<ul>
 												<li>
 													<i className="fa-solid fa-star"></i>
@@ -465,7 +467,10 @@ const Home = () => {
 											</figure>
 										</div>
 										<div className="client-name-wrapper">
-											<h3>Ashley P.Grand rapids, MI</h3>
+											<h3>
+												Ashley P. <br />
+												Grand rapids, MI
+											</h3>
 											<ul>
 												<li>
 													<i className="fa-solid fa-star"></i>
@@ -506,7 +511,10 @@ const Home = () => {
 											</figure>
 										</div>
 										<div className="client-name-wrapper">
-											<h3>Ashley MIndianapolis, IN</h3>
+											<h3>
+												Ashley M <br />
+												Indianapolis, IN
+											</h3>
 											<ul>
 												<li>
 													<i className="fa-solid fa-star"></i>

@@ -50,10 +50,10 @@ const Faq = () => {
 									</Accordion.Header>
 									<Accordion.Body>
 										Once your kit has been mailed to you, there are no refund
-										optionsavailable. ALL classes you will receive your kit
-										PRIOR to your Live or Hybrid class, as we want youto be able
-										to read through some material and come to class prepared for
-										questions and procedures.
+										options available. ALL classes you will receive your kit
+										PRIOR to your Live or Hybrid class, as we want you to be
+										able to read through some material and come to class
+										prepared for questions and procedures.
 									</Accordion.Body>
 								</Accordion.Item>
 								<Accordion.Item eventKey="2">
@@ -74,7 +74,7 @@ const Faq = () => {
 										<i className="fa fa-plus"></i>
 									</Accordion.Header>
 									<Accordion.Body>
-										Our policy makes all payments non-refundable andfinal, but
+										Our policy makes all payments non-refundable and final, but
 										can be transferable.
 									</Accordion.Body>
 								</Accordion.Item>
