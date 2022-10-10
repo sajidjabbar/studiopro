@@ -82,7 +82,13 @@ import review2 from "../assets/img/review2.png";
 import classesDetail from "../assets/img/classesDetail.png";
 import order_img from "../assets/img/order.png";
 import schedule_img from "../assets/img/schedule-img.png";
+import firstImage from "../assets/img/firstImages.webp";
+import thirdImage from "../assets/img/thirdImages.webp";
+import secondImage from "../assets/img/secondImages.webp";
 export {
+	firstImage,
+	thirdImage,
+	secondImage,
 	schedule_img,
 	classesDetail,
 	blading_img,

@@ -31,7 +31,7 @@ const Classes = () => {
 					<div className="row">
 						<div className="col-lg-12">
 							<h2>Classes</h2>
-							<span>Home > Classes</span>
+							<span>Home {">"} Classes</span>
 						</div>
 					</div>
 				</div>

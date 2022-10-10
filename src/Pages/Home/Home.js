@@ -5,6 +5,7 @@ import {
 	banner_2_img,
 	banner_3_img,
 	blog1,
+	thirdImage,
 	blog2,
 	blog3,
 	brush,
@@ -18,7 +19,9 @@ import {
 	play_btn,
 	quote,
 	test1,
+	secondImage,
 	tranies1,
+	firstImage,
 	tranies2,
 	tranies3,
 	video_thumb,
@@ -274,7 +277,7 @@ const Home = () => {
 							<div className="tranies-wrapper">
 								<div className="tranies-img-wrapper">
 									<figure>
-										<img src={tranies1} className="img-fluid" alt="" />
+										<img src={firstImage} className="img-fluid" alt="" />
 									</figure>
 								</div>
 								<div className="tranie-content-wrapper">
@@ -395,7 +398,7 @@ const Home = () => {
 						<div className="col-lg-12">
 							<div className="video-thumbnail-wrapper">
 								<figure>
-									<img src={video_thumb} className="img-fluid" alt="" />
+									<img src={secondImage} className="img-fluid" alt="" />
 								</figure>
 								<div className="video-play-btn">
 									<button>
@@ -639,7 +642,7 @@ const Home = () => {
 							<div className="blog-card-wrapper">
 								<div className="blog-img-wrapper">
 									<figure>
-										<img src={blog1} className="img-fluid" alt="" />
+										<img src={thirdImage} className="img-fluid" alt="" />
 									</figure>
 								</div>
 								<div className="blog-content-wrapper">
