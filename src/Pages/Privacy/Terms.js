@@ -148,7 +148,7 @@ const Terms = () => {
 										or agents be liable for any direct, indirect, punitive,
 										special, incidental, or consequential damages or any damages
 										whatsoever, including, without limitation, damages for loss
-										of use, data, information, profitsor business interruption,
+										of use, data, information, profits or business interruption,
 										arising out of or in any way related to the use or
 										performance of this web site or any linked site, to any
 										information or products or anything else obtained through
@@ -167,7 +167,95 @@ const Terms = () => {
 										(PATER UP NORTH LLC), its affiliates, officers, directors,
 										employees, consultants and agents from any and all losses,
 										expenses, third-party claims, liability, damages and costs
-										(including, but not limited
+										(including, but not limited to, attorneys’ fees) arising
+										from your use of the site or the violation of these Legal
+										Terms, including without limitation, your infringement, or
+										infringement by any other users of your account, of any
+										intellectual property or other right or policy of any person
+										or STUDIO PRO (PATER UP NORTH LLC) .
+									</p>
+								</div>
+								<div className="privacy-content-wrapper">
+									<h4>VII. Privacy Policy</h4>
+									<p>
+										Please carefully review the Privacy Policy for this site,
+										listed below. By your access or use of this site, you here
+										by agree to the terms of this Privacy Policy, which are
+										incorporated into these Legal Terms byreference.
+									</p>
+								</div>
+								<div className="privacy-content-wrapper">
+									<h4>VIII. Advertisements and Other Sites</h4>
+									<p>
+										STUDIO PRO (PATER UP NORTH LLC) Web site may contain links
+										to third party websites that are not under the control of
+										STUDIO PRO (PATER UP NORTH LLC). STUDIO PRO (PATER UP NORTH
+										LLC) makes no representations whatsoever about any other web
+										site to which User may have access through the STUDIO PRO
+										(PATER UP NORTH LLC) web site. When User accesses a
+										third-party web site, User doesso at its own risk and
+										acknowledges that STUDIO PRO (PATER UP NORTH LLC) is not
+										responsible or liable for any content, advertising, products
+										or other materials available from such third-party sites.
+										<br />
+										User also agrees that STUDIO PRO (PATER UP NORTH LLC) shall
+										not be liable for any loss or damage of any sort incurred as
+										the result of using any third party’s web site. Mention of
+										third-party companies and web sites on STUDIO PRO (PATER UP
+										NORTH LLC) Web site is for informational purposes only and
+										does not constitute an endorsement or recommendation.
+									</p>
+								</div>
+								<div className="privacy-content-wrapper">
+									<h4>IX. Agreement to Legal Terms; Changes</h4>
+									<p>
+										BY YOUR ACCESS OR USE OF THIS SITE, YOU HEREBY AGREE TO
+										THESE LEGAL TERMS. These Legal Terms constitute the entire
+										agreement between the parties with respect to the subject
+										matter contained in the Legal Terms and supersede and
+										replace all prior or contemporaneous understandings or
+										agreements, written or oral, regarding such subject matter.
+										Any waiver of any provision of these Legal Terms will be
+										effective only if in writing and signed by STUDIO PRO (PATER
+										UP NORTH LLC) These Legal Terms will inure to the benefit of
+										STUDIO PRO (PATER UP NORTH LLC)’s successors, assigns and
+										licensees.
+									</p>
+								</div>
+								<div className="privacy-content-wrapper">
+									<h4>X. Interpretation and Disputes</h4>
+									<p>
+										These Legal Terms are governed by the laws of the United
+										States and the State of Michigan, without regard to any
+										conflict of law’s provisions. All disputes under this
+										Agreement that cannot be resolved by the parties shall be
+										submitted to arbitration in Grand Traverse County, Michigan
+										under the rules and regulations of the American Arbitration
+										Association. Either party may invoke this paragraph after
+										providing 30 days written notice to the other party.
+										<br />
+										The dispute(s) arising under this Agreement shall be decided
+										by a panel of three arbitrators with each party hereto
+										selecting one arbitrator and the two selected arbitrators to
+										choose the third arbitrator. An arbitrator sitting in any
+										arbitration arising hereunder shall not have the authority
+										or power to modify or alter any express condition or
+										provision of this Agreement or to render any award which by
+										its terms has the effect of altering or modifying any
+										express condition or provisions hereof. All costs of
+										arbitration shall be divided equally between the parties.
+										Any award may be enforced by a court of law. User agrees
+										that, regardless of any statute or law to the contrary, any
+										dispute arising out of or relating to this Agreement must be
+										filed within one (1) year after such claim or cause of
+										action arises or will be forever barred .
+									</p>
+								</div>
+								<div className="privacy-content-wrapper">
+									<h4>XI. Contacting Us</h4>
+									<p>
+										If you have any other questions or concerns regarding these
+										Legal Terms, please contact us via e-mail.
 									</p>
 								</div>
 							</div>
