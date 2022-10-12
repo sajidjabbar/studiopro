@@ -57,13 +57,12 @@ const Terms = () => {
 										STUDIO PRO (PATER UP NORTH LLC). In consideration of your
 										use of and access to this web site, and the promises and
 										obligations in these Legal Terms, and intending to be
-										legally bound, you and STUDIO PRO (PATER UP NORTH LLC)
-										hereby agree to all of the terms and conditions of these
-										Legal Terms. These Legal Terms describe the terms and
-										conditions under which STUDIO PRO (PATER UP NORTH LLC)
-										welcomes you to this site. Please read the Legal Terms
-										carefully so that you fully understand your rights and
-										responsibilities.
+										legally bound, you and STUDIO PRO (PATER UP NORTH LLC) here
+										by agree to all of the terms and conditions of these Legal
+										Terms. These Legal Terms describe the terms and conditions
+										under which STUDIO PRO (PATER UP NORTH LLC) welcomes you to
+										this site. Please read the Legal Terms carefully so that you
+										fully understand your rights and responsibilities.
 									</p>
 								</div>
 								<div className="privacy-content-wrapper">
@@ -212,7 +211,7 @@ const Terms = () => {
 								<div className="privacy-content-wrapper">
 									<h4>IX. Agreement to Legal Terms; Changes</h4>
 									<p>
-										BY YOUR ACCESS OR USE OF THIS SITE, YOU HEREBY AGREE TO
+										BY YOUR ACCESS OR USE OF THIS SITE, YOU HERE BY AGREE TO
 										THESE LEGAL TERMS. These Legal Terms constitute the entire
 										agreement between the parties with respect to the subject
 										matter contained in the Legal Terms and supersede and
