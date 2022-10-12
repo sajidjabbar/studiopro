@@ -184,7 +184,7 @@ const Terms = () => {
 										Please carefully review the Privacy Policy for this site,
 										listed below. By your access or use of this site, you here
 										by agree to the terms of this Privacy Policy, which are
-										incorporated into these Legal Terms byreference.
+										incorporated into these Legal Terms by reference.
 									</p>
 								</div>
 								<div className="privacy-content-wrapper">
@@ -196,7 +196,7 @@ const Terms = () => {
 										LLC) makes no representations whatsoever about any other web
 										site to which User may have access through the STUDIO PRO
 										(PATER UP NORTH LLC) web site. When User accesses a
-										third-party web site, User doesso at its own risk and
+										third-party web site, User does so at its own risk and
 										acknowledges that STUDIO PRO (PATER UP NORTH LLC) is not
 										responsible or liable for any content, advertising, products
 										or other materials available from such third-party sites.
