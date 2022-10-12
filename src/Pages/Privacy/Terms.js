@@ -44,13 +44,14 @@ const Terms = () => {
 										carefully before accessing or using the site, so that you
 										fully understand your rights and responsibilities. BY
 										ACCESSING OR USING THE SITE, YOU SIGNIFY YOUR AGREEMENT WITH
-										THESE LEGAL TERMS.PATER UP NORTH LLC via STUDIO PRO RESERVES
-										THE RIGHT TO CHANGE THESE LEGAL TERMS AT ANY TIME. IF WE
-										DECIDE TO CHANGE THE LEGAL TERMS, WE WILL POST ANY CHANGES
-										ON THIS WEB SITE. ANY SUCH CHANGES SHALL BE EFFECTIVE UPON
-										POSTING ON THE WEB SITE. BY ACCESSING THE SITE FOLLOWING THE
-										POSTING OF CHANGES TO THE LEGAL TERMS, YOU AGREE TO ALL SUCH
-										CHANGES.
+										THESE LEGAL TERMS.
+										<br />
+										PATER UP NORTH LLC via STUDIO PRO RESERVES THE RIGHT TO
+										CHANGE THESE LEGAL TERMS AT ANY TIME. IF WE DECIDE TO CHANGE
+										THE LEGAL TERMS, WE WILL POST ANY CHANGES ON THIS WEB SITE.
+										ANY SUCH CHANGES SHALL BE EFFECTIVE UPON POSTING ON THE WEB
+										SITE. BY ACCESSING THE SITE FOLLOWING THE POSTING OF CHANGES
+										TO THE LEGAL TERMS, YOU AGREE TO ALL SUCH CHANGES.
 										<br />
 										These Legal Terms are agreed to by and between you and
 										STUDIO PRO (PATER UP NORTH LLC). In consideration of your
@@ -71,27 +72,28 @@ const Terms = () => {
 										Rights
 									</h4>
 									<p>
-										Copyright 2022 STUDIO PRO (PATER UP NORTH LLC).
+										Copyright 2022 STUDIO PRO (PATER UP NORTH LLC). All rights
+										reserved.
 										<br />
-										All rights reserved.All copyrightable text, audio, video,
-										graphics, charts, photographs and icons, design, selection,
-										and arrangement of content in any medium on this site is
-										copyrighted by STUDIO PRO (PATER UP NORTH LLC), unless
-										otherwise noted. The distinctive and original layout and
-										presentation of this site also constitutes protectable trade
-										dress under applicable federal law. In addition, many
-										registered and unregistered marks may appear throughout this
-										site and they are the sole property of STUDIO PRO (PATER UP
-										NORTH LLC). This site may also contain references to
-										third-party marks, which are the property of their
-										respective owners. If you have any questions regarding a
-										specific mark or any other STUDIO PRO (PATER UP NORTH LLC)
-										intellectual property, please contact STUDIO PRO (PATER UP
-										NORTH LLC).Any unauthorized use of any of STUDIO PRO (PATER
-										UP NORTH LLC) marks, or of its copyrighted material or trade
-										dress or any other intellectual property, is strictly
-										prohibited, and will be prosecuted to the fullest extent
-										that the law provides.
+										All copyrightable text, audio, video, graphics, charts,
+										photographs and icons, design, selection, and arrangement of
+										content in any medium on this site is copyrighted by STUDIO
+										PRO (PATER UP NORTH LLC), unless otherwise noted. The
+										distinctive and original layout and presentation of this
+										site also constitutes protectable trade dress under
+										applicable federal law. In addition, many registered and
+										unregistered marks may appear throughout this site and they
+										are the sole property of STUDIO PRO (PATER UP NORTH LLC).
+										This site may also contain references to third-party marks,
+										which are the property of their respective owners. If you
+										have any questions regarding a specific mark or any other
+										STUDIO PRO (PATER UP NORTH LLC) intellectual property,
+										please contact STUDIO PRO (PATER UP NORTH LLC).Any
+										unauthorized use of any of STUDIO PRO (PATER UP NORTH LLC)
+										marks, or of its copyrighted material or trade dress or any
+										other intellectual property, is strictly prohibited, and
+										will be prosecuted to the fullest extent that the law
+										provides.
 									</p>
 								</div>
 								<div className="privacy-content-wrapper">
@@ -135,9 +137,10 @@ const Terms = () => {
 										ERRORS OR OMISSIONS IN THE CONTENT OF THIS WEBSITE,
 										REGARDLESS OF THE BASIS UPON WHICH LIABILITY IS CLAIMED,
 										EVEN IF STUDIO PRO (PATER UP NORTH LLC) HAS BEEN ADVISED OF
-										THE POSSIBILITY OF SUCH LOSS OR DAMAGE.THIS LIMITATION IS
-										SUBJECT TO THE PROVISIONS OF ANY APPLICABLE LAW THAT MAY
-										RESTRICT ITS SCOPE.
+										THE POSSIBILITY OF SUCH LOSS OR DAMAGE.
+										<br />
+										THIS LIMITATION IS SUBJECT TO THE PROVISIONS OF ANY
+										APPLICABLE LAW THAT MAY RESTRICT ITS SCOPE.
 									</p>
 								</div>
 								<div className="privacy-content-wrapper">
