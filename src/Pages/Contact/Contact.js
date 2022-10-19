@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import "../../assets/css/contact.css";
 import { contact, homeicon, phoneicon, massageicon } from "../../constant";
 
 const Contact = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	  }, []);
 	return (
 		<>
 			<Header />

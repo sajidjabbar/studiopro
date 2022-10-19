@@ -37,6 +37,7 @@ import { useEffect } from "react";
 import $ from "jquery";
 
 const PublicRoutes = () => {
+	
 	useEffect(() => {
 		// Mobile Nav
 		$("document").ready(function () {

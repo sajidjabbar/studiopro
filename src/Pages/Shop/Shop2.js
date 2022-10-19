@@ -187,16 +187,17 @@ const Shop2 = () => {
 								<h5>Quantity</h5>
 								<ul>
 									<li>
-										<button onClick={CountPlus}>
-											<i className="fa-solid fa-plus"></i>
+									<button onClick={CountMinus}>
+											<i className="fa-solid fa-minus"> </i>
 										</button>
+										
 									</li>
 									<li className="second-quantity">
 										<Link to="/">{count < 1 ? count + 1 : count}</Link>
 									</li>
 									<li>
-										<button onClick={CountMinus}>
-											<i className="fa-solid fa-minus"> </i>
+									<button onClick={CountPlus}>
+											<i className="fa-solid fa-plus"></i>
 										</button>
 									</li>
 								</ul>

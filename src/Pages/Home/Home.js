@@ -31,6 +31,7 @@ import Header from "../../Components/Header";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 	const settings = {
@@ -76,9 +77,9 @@ const Home = () => {
 													industry's standard dummy text ever since the 1500s.
 												</p>
 												<div className="btn-wrapper">
-													<a href="#" className="btn">
+													<Link to="/about-us" className="btn">
 														Read More
-													</a>
+													</Link>
 													<a href="#" className="btn-text">
 														Our Services
 													</a>
@@ -108,9 +109,9 @@ const Home = () => {
 													industry's standard dummy text ever since the 1500s.
 												</p>
 												<div className="btn-wrapper">
-													<a href="#" className="btn">
+												<Link to="/about-us" className="btn">
 														Read More
-													</a>
+													</Link>
 													<a href="#" className="btn-text">
 														Our Services
 													</a>
@@ -140,9 +141,9 @@ const Home = () => {
 													industry's standard dummy text ever since the 1500s.
 												</p>
 												<div className="btn-wrapper">
-													<a href="#" className="btn">
+												<Link to="/about-us" className="btn">
 														Read More
-													</a>
+													</Link>
 													<a href="#" className="btn-text">
 														Our Services
 													</a>
@@ -200,9 +201,9 @@ const Home = () => {
 									</li>
 								</ul>
 								<div className="btn-wrapper">
-									<a href="#" className="btntext">
+									<Link to="/about-us" className="btntext">
 										Learn More
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -242,9 +243,9 @@ const Home = () => {
 									tend to repeat predefined chunks as necessary
 								</p>
 								<div className="btn-wrapper">
-									<a href="#" className="btn">
+									<Link to="/Contact" className="btn">
 										Visit Now
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -653,7 +654,7 @@ const Home = () => {
 									</p>
 									<div className="date-btn-wrapper">
 										<span>26-Jan-2022</span>
-										<a href="#">Read More</a>
+										<Link to="/NewsDetail">Read More</Link>
 									</div>
 								</div>
 							</div>
@@ -673,7 +674,7 @@ const Home = () => {
 									</p>
 									<div className="date-btn-wrapper">
 										<span>26-Jan-2022</span>
-										<a href="#">Read More</a>
+										<Link to="/NewsDetail">Read More</Link>
 									</div>
 								</div>
 							</div>
@@ -693,7 +694,7 @@ const Home = () => {
 									</p>
 									<div className="date-btn-wrapper">
 										<span>26-Jan-2022</span>
-										<a href="#">Read More</a>
+										<Link to="/NewsDetail">Read More</Link>
 									</div>
 								</div>
 							</div>
