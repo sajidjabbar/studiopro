@@ -84,11 +84,11 @@ const About = () => {
 										</span>
 									</li>
 								</ul>
-								<div className="btn-wrapper">
+								{/* <div className="btn-wrapper">
 									<a href="/NewsDetail" className="btntext">
 										Learn More
 									</a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="col-lg-6">
