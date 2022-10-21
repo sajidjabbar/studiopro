@@ -18,7 +18,7 @@ const Login = () => {
 
 								<div className="taglines pb-3">
 									<h3>Welcoming Back to TC Studio 2 pro</h3>
-									<h3>let us Enhance your Beatuy</h3>
+									<h3>let us Enhance your Beauty</h3>
 									<p>
 										Not a Member ?<a href="/signup">Sign Up</a>
 									</p>

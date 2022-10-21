@@ -61,7 +61,12 @@ const Wishlist = () => {
 												</td>
 												<td className="product-name">
 													<div className="button-wrapper">
-														<button className="btn">Add to cart</button>
+														<button
+															onClick={() => navigate("/productcart")}
+															className="btn"
+														>
+															Add to cart
+														</button>
 													</div>
 												</td>
 											</tr>
@@ -85,7 +90,12 @@ const Wishlist = () => {
 												</td>
 												<td className="product-name">
 													<div className="button-wrapper">
-														<button className="btn">Add to cart</button>
+														<button
+															onClick={() => navigate("/productcart")}
+															className="btn"
+														>
+															Add to cart
+														</button>
 													</div>
 												</td>
 											</tr>
@@ -109,7 +119,12 @@ const Wishlist = () => {
 												</td>
 												<td className="product-name">
 													<div className="button-wrapper">
-														<button className="btn">Add to cart</button>
+														<button
+															onClick={() => navigate("/productcart")}
+															className="btn"
+														>
+															Add to cart
+														</button>
 													</div>
 												</td>
 											</tr>
@@ -133,7 +148,12 @@ const Wishlist = () => {
 												</td>
 												<td className="product-name">
 													<div className="button-wrapper">
-														<button className="btn">Add to cart</button>
+														<button
+															onClick={() => navigate("/productcart")}
+															className="btn"
+														>
+															Add to cart
+														</button>
 													</div>
 												</td>
 											</tr>
@@ -157,7 +177,12 @@ const Wishlist = () => {
 												</td>
 												<td className="product-name">
 													<div className="button-wrapper">
-														<button className="btn">Add to cart</button>
+														<button
+															onClick={() => navigate("/productcart")}
+															className="btn"
+														>
+															Add to cart
+														</button>
 													</div>
 												</td>
 											</tr>
