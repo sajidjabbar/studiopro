@@ -32,6 +32,9 @@ const Myorder = () => {
 							<section className="wishlist-sec pt-0 order-wrap">
 								<div className="container">
 									<div className="row">
+										<div className="mycourses-heading-wrapper">
+											<h4>My Orders</h4>
+										</div>
 										<div className="col-lg-12">
 											<div className="wishlist-wrapper">
 												<div className="table-responsive">

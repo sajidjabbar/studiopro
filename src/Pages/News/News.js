@@ -24,7 +24,7 @@ const News = () => {
 					<div className="row">
 						<div className="col-lg-12">
 							<h2>News & Events</h2>
-							<span>Home > News & Events</span>
+							<span>Home {">"} News & Events</span>
 						</div>
 					</div>
 				</div>
@@ -55,7 +55,7 @@ const News = () => {
 									industry's standard dummy text ever since the 1500s
 								</p>
 								<span className="d-block">26-Jan-2022</span>
-								<a href="#" className="btn">
+								<a href="/NewsDetail" className="btn">
 									View Detail
 								</a>
 							</div>

@@ -85,7 +85,7 @@ const About = () => {
 									</li>
 								</ul>
 								<div className="btn-wrapper">
-									<a href="#" className="btntext">
+									<a href="/NewsDetail" className="btntext">
 										Learn More
 									</a>
 								</div>

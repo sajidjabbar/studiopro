@@ -3,8 +3,10 @@ import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 import { pro_img, pro_img2 } from "../../constant";
 import "../../assets/css/wishlist.css";
+import { useNavigate } from "react-router-dom";
 
 const ProductCart = () => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<Header />
@@ -263,13 +265,24 @@ const ProductCart = () => {
 							<div className="row">
 								<div className="col-lg-6">
 									<div className="btn-wrapper">
-										<button className="btn">Continue Shopping</button>
-										<button className="btn-Clear ">Clear</button>
+										<button
+											className="btn"
+											onClick={() => navigate("/Checkout")}
+										>
+											Continue Shopping
+										</button>
+										<button className="btn-Clear" onClick={() => navigate("/")}>
+											Clear
+										</button>
 									</div>
 								</div>
 								<div className="col-lg-6">
 									<div className="btn-wrapper text-right">
-										<a href="/bilingDetail" className="btn">
+										<a
+											href="/bilingDetail"
+											onClick={() => navigate("/Checkout")}
+											className="btn"
+										>
 											Proceed to Checkout
 										</a>
 										<p className="mt-3">

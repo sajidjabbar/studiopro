@@ -22,7 +22,7 @@ const MyCourses = () => {
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-12">
-							<h2>Course Detail</h2>
+							<h2>My Course</h2>
 							<span>Home {">"} Profile</span>
 						</div>
 					</div>

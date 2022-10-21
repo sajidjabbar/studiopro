@@ -80,7 +80,7 @@ const Home = () => {
 													<Link to="/about-us" className="btn">
 														Read More
 													</Link>
-													<a href="#" className="btn-text">
+													<a href="/classes" className="btn-text">
 														Our Services
 													</a>
 												</div>
@@ -109,7 +109,7 @@ const Home = () => {
 													industry's standard dummy text ever since the 1500s.
 												</p>
 												<div className="btn-wrapper">
-												<Link to="/about-us" className="btn">
+													<Link to="/about-us" className="btn">
 														Read More
 													</Link>
 													<a href="#" className="btn-text">
@@ -141,7 +141,7 @@ const Home = () => {
 													industry's standard dummy text ever since the 1500s.
 												</p>
 												<div className="btn-wrapper">
-												<Link to="/about-us" className="btn">
+													<Link to="/about-us" className="btn">
 														Read More
 													</Link>
 													<a href="#" className="btn-text">

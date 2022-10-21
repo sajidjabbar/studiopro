@@ -21,7 +21,7 @@ const MyProfile = () => {
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-12">
-							<h2>Course Detail</h2>
+							<h2>Profile</h2>
 							<span>Home {">"} Profile</span>
 						</div>
 					</div>

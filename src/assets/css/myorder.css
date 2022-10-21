@@ -1,3 +1,10 @@
 .order-wrap .wishlist-wrapper td.product-name {
 	width: 22%;
 }
+
+.order-wrap .mycourses-heading-wrapper h4 {
+	color: #000000;
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
