@@ -70,7 +70,7 @@ const HybridCourses = () => {
 															}
 															href="javascript:void(0)"
 														>
-															Course Videos
+															Recorded Sessions
 														</a>
 													</li>
 													<li>

@@ -68,7 +68,7 @@ const OnlineCourses = () => {
 															}
 															href="javascript:void(0)"
 														>
-															Recorded Sessions
+															Course Videos
 														</a>
 													</li>
 													<li>
