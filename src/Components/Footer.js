@@ -50,25 +50,6 @@ const Footer = () => {
 										<p>London Oxford Street, 012 United Kingdom.</p>
 										<p>Business@userthemes.net</p>
 										<p>+032 3456 7890</p>
-										<div className="footer-social-icons-wrapper">
-											<ul>
-												<li>
-													<a href="#">
-														<i className="fa-brands fa-facebook"></i>
-													</a>
-												</li>
-												<li>
-													<a href="#">
-														<i className="fa-brands fa-twitter"></i>
-													</a>
-												</li>
-												<li>
-													<a href="#">
-														<i className="fa-brands fa-instagram"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
 									</div>
 								</div>
 							</div>
@@ -99,14 +80,26 @@ const Footer = () => {
 							<div className="col-lg-4">
 								<div className="footer-widget-wrapper">
 									<div className="footer-heading-wrapper">
-										<h4>Recent Posts</h4>
+										<h4>Follow us</h4>
 									</div>
-									<div className="footer-content-wrapper">
-										<span>ADMIN | Dec 1, 2021</span>
-										<p>
-											Nam ac elit a ante commodo tristique. Condimentum a
-											vehicula hendrerit ac nisi Lorem
-										</p>
+									<div className="footer-social-icons-wrapper">
+										<ul>
+											<li>
+												<a href="#">
+													<i className="fa-brands fa-facebook"></i>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i className="fa-brands fa-twitter"></i>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i className="fa-brands fa-instagram"></i>
+												</a>
+											</li>
+										</ul>
 									</div>
 								</div>
 							</div>
